@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{21622A36-45B3-4232-AAEE-D76C4CA6D2A4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="demo0/Program.cs">
+﻿<Properties StartupConfiguration="{F94F4FD1-95F4-434A-A00F-AB2EBC8E2BD1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day02/Program.cs">
     <Files>
-      <File FileName="demo0/Program.cs" Line="14" Column="32" />
+      <File FileName="demo0/Program.cs" Line="30" Column="1" />
+      <File FileName="Day02/Program.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="demo0" expanded="True">
-            <Node name="demo0" expanded="True">
+            <Node name="Day02" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -17,6 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.demo0 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Day02 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
