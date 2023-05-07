@@ -9,6 +9,7 @@ namespace Day02
             string gunName = "AK 47";
             string gunCap = "300";
 
+            // 1.字符串
             // 使用占位符来定义格式字符串
             string des = string.Format("枪的名称:{0}, 枪的子弹容量:{1}", gunName, gunCap);
             Console.WriteLine(des);
@@ -25,6 +26,14 @@ namespace Day02
             //\r\n回车换行， \t水平制表符，相当于按了一下tab键
             Console.WriteLine("我爱学习\tUnity");
 
+
+            //2.算术运算
+            int n1 = 5, n2 = 2;
+            int r1 = n1 / n2; // 5/2 = 2.5 值为截断整数 2(除法运算中 顶部的商)
+            int r2 = n1 % n2; // 5%2 = 1(除法运算中 底部的余数)
+            //使用场景
+            bool r3 = n1 % 2 == 0;//奇数偶数判断
+            int r4 = n1 % 10;//获取十进制的个位数
         }
     }
 }
