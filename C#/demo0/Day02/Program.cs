@@ -4,8 +4,9 @@ namespace Day02
 {
     class MainClass
     {
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
+            #region
             string gunName = "AK 47";
             string gunCap = "300";
 
@@ -39,6 +40,11 @@ namespace Day02
             //快捷运算符 +=, -=, *=, /=
 
             //4.一元运算符（符号的左边或右边只有一个变量: ++, --）， 二元， 三元(三目运算符 a>0?a:1)
+            int singleOp = 10;
+            Console.WriteLine(singleOp++);
+            Console.WriteLine(++singleOp);
+            //singleOp++ 和 ++singleOp只对单条语句有影响，对下一条语句没有影响。
+
 
             //5.数据类型转换
             //a.Parse转换：string类型转换成其他数据类型
@@ -69,8 +75,67 @@ namespace Day02
             //c.隐式类型转换
             Byte b1 = 250;
             b1 += 10; // 快捷运算符不会做类型提升，所以不保存
-            // b1 = b1 + 10; // 二元运算符会做类型提升，这里可能出现内存溢出，所以报错
+                      // b1 = b1 + 10; // 二元运算符会做类型提升，这里可能出现内存溢出，所以报错
 
+            #endregion
+        }
+
+        public static void Main(string[] args)
+        {
+            #region
+            //语句：选择语句，循环语句，跳转语句
+
+            Console.WriteLine("请输入性别：");
+            string sex = Console.ReadLine();
+            //选择语句
+            //if
+            if (sex == "男") {
+                Console.WriteLine("你好，男士");
+            } else {
+                Console.WriteLine("你好，女士");
+            }
+            //switch
+            switch (sex)
+            {
+                case "男":
+                    Console.WriteLine("你好，男士");
+                    break;
+                default:
+                    break;
+            }
+
+            //循环语句
+            //for (初始化; 循环条件; 增减变量)
+            //{
+            //    循环体
+            //}
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("老王");
+            }
+
+            //while (条件)
+            //{
+            //    循环体
+            //}
+            // while循环需要自己定义初始化条件，自己单独写变量增减， 而for循环是自带这些条件的。
+            int wNum = 0;
+            while (wNum < 5)
+            {
+                Console.WriteLine("老田");
+                wNum++;
+            }
+
+            //先做一遍再判断
+            do
+            {
+                Console.WriteLine("你好，老李");
+            } while (wNum < 10);
+
+            //跳转语句：continue, break, return
+            //continue: 结束当前循环， break:结束最近的循环体， return:结束当前函数
+
+            #endregion
         }
     }
 }
