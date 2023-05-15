@@ -80,7 +80,7 @@ namespace Day02
             #endregion
         }
 
-        public static void Main(string[] args)
+        public static void Main2(string[] args)
         {
             #region
             //语句：选择语句，循环语句，跳转语句
@@ -134,6 +134,26 @@ namespace Day02
 
             //跳转语句：continue, break, return
             //continue: 结束当前循环， break:结束最近的循环体， return:结束当前函数
+
+            #endregion
+        }
+
+        public static void Main(string[] args)
+        {
+            #region
+            //方法
+            string str = "我是李雷！";
+            str = str.Insert(4, "吗");
+
+            int inde = str.IndexOf("李");
+
+            str = str.Replace("我", "我们");
+
+            str = str.Remove(2);
+
+            bool res = str.Contains("是");
+
+            bool res2 = str.StartsWith("我");
 
             #endregion
         }
