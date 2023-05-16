@@ -155,7 +155,19 @@ namespace Day02
 
             bool res2 = str.StartsWith("我");
 
+            //递归
+            int res3 = getFact(5);
+            Console.WriteLine("{0}", res3);
+
+            //数组
+
             #endregion
+        }
+
+        // 递归：5的阶乘
+        private static int getFact(int num) {
+            if (num == 1) return 1;
+            return num * getFact(num - 1);
         }
     }
 }
