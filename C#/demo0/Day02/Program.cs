@@ -161,6 +161,26 @@ namespace Day02
 
             //数组
 
+            // var类型推导
+            int[] list = new int[] { 1, 2, 3, 4, 5 };
+            foreach (var item in list) {
+                Console.WriteLine("item: {0} \r\t", item);
+            }
+            var v1 = 1;
+            var v2 = '1';
+            var v3 = "1";
+
+            //定义数组,Array：所有数组的父类
+            Array arr1 = new int[2];
+            Array arr2 = new double[3];
+            // 数组的使用
+            int listL = list.Length;
+            Array.Sort(list);
+            object obj = list.Clone();
+            int[] objList = (int[])obj;
+            Console.WriteLine(objList[0]);
+
+
             #endregion
         }
 
