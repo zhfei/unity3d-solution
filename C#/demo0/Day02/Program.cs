@@ -184,6 +184,22 @@ namespace Day02
             //[行数，列数]
             int[,] twoList = new int[3, 5];
             twoList[0, 2] = 10;
+            //获取行数
+            int rowNum = twoList.GetLength(0);
+            //获取列数
+            int columNum = twoList.GetLength(1);
+
+            //交错数组，是不规则的二维数组（表，有的行长，有的行短），交错数组的元素个数是行数。
+            //定义一个交错数组
+            int[][] list2;
+            //创建一个有5个元素的交错数组
+            list2 = new int[5][];
+            //第0个元素赋值
+            list2[0] = new int[3];
+            //第1个元素赋值
+            list2[1] = new int[7];
+            //给交错数组赋值,给交错数组的第0个元素 的 第2个元设置成1
+            list2[0][2] = 1;
 
             #endregion
         }
