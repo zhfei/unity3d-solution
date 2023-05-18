@@ -180,6 +180,10 @@ namespace Day02
             int[] objList = (int[])obj;
             Console.WriteLine(objList[0]);
 
+            //二维数组
+            //[行数，列数]
+            int[,] twoList = new int[3, 5];
+            twoList[0, 2] = 10;
 
             #endregion
         }
