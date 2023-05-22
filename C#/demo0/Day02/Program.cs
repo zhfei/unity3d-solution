@@ -201,6 +201,10 @@ namespace Day02
             //给交错数组赋值,给交错数组的第0个元素 的 第2个元设置成1
             list2[0][2] = 1;
 
+            int tot = Add(10, 20, 30);
+            int tot2 = Add(new int[]{ 10,20,30});
+            Console.WriteLine("{0}{1}",tot,tot2);
+
             #endregion
         }
 
@@ -208,6 +212,16 @@ namespace Day02
         private static int getFact(int num) {
             if (num == 1) return 1;
             return num * getFact(num - 1);
+        }
+
+        //被params修饰的参数可以传数组，也可以传多个参数，编译器内部会自动封装成数组
+        private static int Add(params int[] arr) {
+            int sum = 0;
+            foreach(int num in arr)
+            {
+                sum += num;
+            }
+            return sum;
         }
     }
 }
