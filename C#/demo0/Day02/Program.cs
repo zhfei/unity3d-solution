@@ -205,6 +205,15 @@ namespace Day02
             int tot2 = Add(new int[]{ 10,20,30});
             Console.WriteLine("{0}{1}",tot,tot2);
 
+            int funParam = 1;
+            Fun1(funParam);
+            Console.WriteLine("{0}", funParam);
+            Fun2(ref funParam);
+            Console.WriteLine("{0}", funParam);
+            Fun3(out funParam);
+            Console.WriteLine("{0}", funParam);
+
+
             #endregion
         }
 
@@ -222,6 +231,22 @@ namespace Day02
                 sum += num;
             }
             return sum;
+        }
+
+        //函数参数：值参数， 传递的是实参变量的值
+        private static void Fun1(int a)
+        {
+            a = 10;
+        }
+        //函数参数：引用参数，传递的是实参变量的内存地址，在函数内部可以直接修改外界调用的变量的值
+        private static void Fun2(ref int a)
+        {
+            a = 20; //可以修改外界的入参， ref表示函数内可以修改函数外部的数据
+        }
+        //函数参数：返回参数，传递的是实参的内存地址，用于从函数内返回数据到外面
+        private static void Fun3(out int a)
+        {
+            a = 30; 
         }
     }
 }
