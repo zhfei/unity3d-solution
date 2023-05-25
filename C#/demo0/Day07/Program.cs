@@ -4,7 +4,7 @@ using System.Text;
 namespace Day07
 {
     [Flags] //表示枚举可以执行与操作
-    enum PersonStyle {
+    enum PersonStyle:int {
         tail = 1,
         rich = 2,
         handsome = 4,
