@@ -12,7 +12,7 @@ namespace Day08
             Person p = new Person();
             p.Name = "hanmeimei";
             p.Age = 20;
-            Console.WriteLine(p);
+            Console.WriteLine("{0},{1}",p.Name, p.Age);
         }
     }
 }
