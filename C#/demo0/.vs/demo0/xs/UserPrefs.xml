@@ -1,17 +1,20 @@
-﻿<Properties StartupConfiguration="{4D9C2A69-CA40-4A47-B2CE-E26B47E975DE}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Day07/Program.cs">
+﻿<Properties StartupConfiguration="{42D6EF68-5DDC-4E15-B44C-4D6273D44733}|Default">
+  <MonoDevelop.Ide.ItemProperties.Day08 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Day08/Person.cs">
     <Files>
       <File FileName="demo0/Program.cs" Line="30" Column="1" />
       <File FileName="Day02/Program.cs" />
-      <File FileName="Day07/Program.cs" Line="54" Column="46" />
+      <File FileName="Day07/Program.cs" Line="17" Column="10" />
+      <File FileName="Day08/Program.cs" Line="13" Column="1" />
+      <File FileName="Day08/Person.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="demo0" expanded="True">
-            <Node name="Day07" expanded="True">
-              <Node name="Properties" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+            <Node name="Day07" expanded="True" />
+            <Node name="Day08" expanded="True">
+              <Node name="Person.cs" selected="True" />
             </Node>
           </Node>
         </State>
