@@ -19,6 +19,8 @@ namespace Day08
         //1.私有字段，成员变量
         private string name;
         private int age;
+        //子类可以使用父类的protected属性，但不能使用private私有属性。
+        protected string sex;
 
         //属性，用于get,set私有成员变量
         public string Name {

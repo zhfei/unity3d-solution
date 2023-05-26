@@ -11,7 +11,7 @@ namespace Day08
 
             Person p = new Person();
             p.Name = "hanmeimei";
-            p.Age = 20;
+            p.Age = 18;
             Console.WriteLine("{0},{1}",p.Name, p.Age);
 
             //列表
@@ -29,6 +29,9 @@ namespace Day08
             object po = dict["jack"];
             Person p2 = (Person)po;
             Console.WriteLine(p2.Age);
+
+            //static静态常量
+            Console.WriteLine("学习分数：{0}", Student.score);
         }
     }
 }
