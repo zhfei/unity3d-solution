@@ -66,6 +66,10 @@ public class Demo01 : MonoBehaviour
     //调用顺序1：游戏对象创建并启用，脚本对象启用，调用1次
     public void Start()
     {
+        int a = 1;
+        int b = 2;
+        int c = a + b;
+
         Debug.Log("Start: " + Time.time + "--" + this.name);
     }
     //调用顺序1.1：脚本对象启用1次调用1次
