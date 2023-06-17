@@ -57,6 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/Enemy/EnemyMotor.cs" />
+    <Compile Include="Assets/Scripts/Enemy/EnemyStatusInfo.cs" />
+    <Compile Include="Assets/Scripts/Enemy/EnemyAnimation.cs" />
+    <Compile Include="Assets/Scripts/Enemy/EnemyAI.cs" />
+    <Compile Include="Assets/Scripts/Enemy/AnimationAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

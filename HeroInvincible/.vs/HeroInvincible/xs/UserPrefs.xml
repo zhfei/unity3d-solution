@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{4AEF5DD1-0384-01A6-B959-4932D38B1F92}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/EnemyMotor.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/AnimationAction.cs">
     <Files>
-      <File FileName="Assets/Scripts/Enemy/EnemyMotor.cs" Line="7" Column="7" />
+      <File FileName="Assets/Scripts/Enemy/EnemyMotor.cs" Line="8" Column="17" />
+      <File FileName="Assets/Scripts/Enemy/EnemyStatusInfo.cs" Line="7" Column="29" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAnimation.cs" Line="7" Column="28" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAI.cs" Line="7" Column="31" />
+      <File FileName="Assets/Scripts/Enemy/AnimationAction.cs" Line="7" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +14,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Enemy" expanded="True">
-                  <Node name="EnemyMotor.cs" selected="True" />
+                  <Node name="AnimationAction.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
