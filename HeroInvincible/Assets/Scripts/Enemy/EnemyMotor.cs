@@ -13,6 +13,7 @@ public class EnemyMotor : MonoBehaviour
 {
     // 敌人当前运动的路线
     public WayLine wayline;
+    public Transform[] ePointers = null;
 
     // 敌人运行的速度
     public float moveSpeed = 5;
@@ -41,17 +42,38 @@ public class EnemyMotor : MonoBehaviour
     /// <returns></returns>
     public bool Pathfinding()
     {
-        if (currentIndex >= wayline.Pointers.Length) return false;
+        if (currentIndex >= ePointers.Length) return false;
 
-        LookRotation(wayline.Pointers[currentIndex]);
+        LookRotation(ePointers[currentIndex].position);
         MoveForward();
 
-        if (Vector3.Distance(transform.position, wayline.Pointers[currentIndex]) <= 0.1) 
+        if (Vector3.Distance(transform.position, ePointers[currentIndex].position) <= 0.1) 
         {
             currentIndex++;
         }
 
         // return true表示可以继续移动，继续寻路
         return true;
+    }
+
+    public bool Pathfinding2()
+    {
+        if (currentIndex >= wayline.Pointers.Length) return false;
+
+        LookRotation(wayline.Pointers[currentIndex]);
+        MoveForward();
+
+        if (Vector3.Distance(transform.position, wayline.Pointers[currentIndex]) <= 0.1)
+        {
+            currentIndex++;
+        }
+
+        // return true表示可以继续移动，继续寻路
+        return true;
+    }
+
+    private void Update()
+    {
+        Pathfinding();
     }
 }

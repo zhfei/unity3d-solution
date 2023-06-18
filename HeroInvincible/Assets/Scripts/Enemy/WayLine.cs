@@ -4,20 +4,14 @@ using UnityEngine;
 
 
 /// <summary>
-///
+///敌人行走的路线：包括属性为路点坐标数组Vector3[] Points, 是否可用IsUseable
+/// 
 /// </summary>
 
-public class WayLine : MonoBehaviour
+public class WayLine 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Vector3[] Pointers;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    private bool IsUseable;
+
 }

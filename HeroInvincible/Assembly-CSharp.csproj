@@ -58,10 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Enemy/AnimationAction.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyAnimation.cs" />
+    <Compile Include="Assets/Scripts/Enemy/WayLine.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyStatusInfo.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyAI.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemyMotor.cs" />
-    <Compile Include="Assets/Scripts/Enemy/WayLine.cs" />
     <Compile Include="Assets/Scripts/Enemy/EnemySpawn.cs" />
   </ItemGroup>
   <ItemGroup>
