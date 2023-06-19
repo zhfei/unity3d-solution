@@ -10,15 +10,35 @@ using UnityEngine;
 
 public class EnemyStatusInfo : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public float HP = 100;
+
+    public float deathDelay = 5;
+    public float currentHP;
+    public float maxHP;
+    
+
+    public void Damage(float amount)
     {
-        
+        if (currentHP <= 0)
+        {
+            return;
+        }
+
+        currentHP -= amount;
+
+        if (currentHP <= 0)
+        {
+            Death();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    //死亡
+    public void Death()
     {
-        
+        //销毁当前游戏体
+        Destroy(this.gameObject, deathDelay);
+
+
     }
 }

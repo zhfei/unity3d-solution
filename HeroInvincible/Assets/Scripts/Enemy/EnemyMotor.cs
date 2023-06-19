@@ -12,7 +12,7 @@ using UnityEngine;
 public class EnemyMotor : MonoBehaviour
 {
     // 敌人当前运动的路线
-    public WayLine wayline;
+    public WayLine wayline = new WayLine(3);
     public Transform[] ePointers = null;
 
     // 敌人运行的速度
@@ -74,6 +74,6 @@ public class EnemyMotor : MonoBehaviour
 
     private void Update()
     {
-        Pathfinding();
+        Pathfinding2();
     }
 }

@@ -10,8 +10,17 @@ using UnityEngine;
 
 public class WayLine 
 {
-    public Vector3[] Pointers;
+    //所有的路点
+    public Vector3[] Pointers { get; set; }
 
-    private bool IsUseable;
+    //路线是否可用
+    private bool IsUseable { get; set; }
+
+
+    public WayLine(int num)
+    {
+        this.Pointers = new Vector3[num];
+        this.IsUseable = true;
+    }
 
 }

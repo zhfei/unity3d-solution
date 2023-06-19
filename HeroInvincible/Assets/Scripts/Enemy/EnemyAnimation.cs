@@ -10,15 +10,28 @@ using UnityEngine;
 
 public class EnemyAnimation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private Animation animate;
+    private AnimationAction animateAction;
+
+    public string StartAnimation;
+    public string EndAnimation;
+    public string deathName;
+
+
+    private void Awake()
     {
-        
+        this.animate = GetComponentInChildren<Animation>();
+        this.animateAction = new AnimationAction(this.animate);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayStartAnimation()
     {
-        
+        this.animateAction.Play(StartAnimation);
+    }
+
+    public void fireAnimation()
+    {
+        this.animate.Play(EndAnimation);
     }
 }

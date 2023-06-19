@@ -8,17 +8,23 @@ using UnityEngine;
 ///
 /// </summary>
 
-public class AnimationAction : MonoBehaviour
+public class AnimationAction 
 {
-    // Start is called before the first frame update
-    void Start()
+    private Animation anim;
+
+    public AnimationAction(Animation anim)
     {
-        
+        this.anim = anim;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Play(string animationName)
     {
-        
+        this.anim.CrossFade(animationName);
     }
+
+    public bool IsPlay(string animationName)
+    {
+        return this.anim.isPlaying;
+    }
+
 }
