@@ -11,13 +11,14 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
 
-    enum EnemyState
+    public enum EnemyState
     {
         PathFinding,
-        Atrack
+        Atrack,
+        Death
     }
 
-    private EnemyState currentState;
+    public EnemyState currentState;
     private float nextTime;
     private EnemyAnimation enemyAnimation;
     private EnemyMotor enemyMotor;
@@ -47,19 +48,19 @@ public class EnemyAI : MonoBehaviour
                 {
                     this.currentState = EnemyState.Atrack;
                 }
-                this.enemyAnimation.PlayStartAnimation();
-
+                else
+                {
+                    this.enemyAnimation.Play(enemyAnimation.runName);
+                }
 
                 break;
             case EnemyState.Atrack:
 
                 if (nextTime <= Time.time)
                 {
-                    this.enemyAnimation.fireAnimation();
+                    this.enemyAnimation.Play(enemyAnimation.atrackName);
                     nextTime += 1;
                 }
-
-                
 
                 break;
         }

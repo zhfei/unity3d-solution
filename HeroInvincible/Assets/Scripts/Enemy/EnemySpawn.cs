@@ -20,6 +20,11 @@ public class EnemySpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //创建路线数组
+
+        //创建2个敌人
+
+        //随机选择一条路线，设置给敌人
         
     }
 
@@ -27,5 +32,10 @@ public class EnemySpawn : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void GenerateEnemy()
+    {
+
     }
 }

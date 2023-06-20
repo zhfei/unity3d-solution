@@ -14,7 +14,7 @@ public class WayLine
     public Vector3[] Pointers { get; set; }
 
     //路线是否可用
-    private bool IsUseable { get; set; }
+    public bool IsUseable { get; set; }
 
 
     public WayLine(int num)

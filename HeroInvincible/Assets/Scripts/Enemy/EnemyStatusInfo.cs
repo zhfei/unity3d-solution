@@ -11,19 +11,17 @@ using UnityEngine;
 public class EnemyStatusInfo : MonoBehaviour
 {
 
-    public float HP = 100;
-
     public float deathDelay = 5;
     public float currentHP;
+    //最大血量
     public float maxHP;
+    //敌人生成器
+    public EnemySpawn spawn;
     
-
+    //受到攻击，减血
     public void Damage(float amount)
     {
-        if (currentHP <= 0)
-        {
-            return;
-        }
+        if (currentHP <= 0) return;
 
         currentHP -= amount;
 
@@ -36,9 +34,21 @@ public class EnemyStatusInfo : MonoBehaviour
     //死亡
     public void Death()
     {
+        //死亡动画
+        var anim = this.GetComponent<EnemyAnimation>();
+        anim.Play(anim.deathName);
+
+        //将当前游戏对象上的AI组件中的敌人状态设置成死亡
+        GetComponent<EnemyAI>().currentState = EnemyAI.EnemyState.Death;
+
+        //当前敌人游戏对象所使用的路线重新设置为可用
+        GetComponent<EnemyMotor>().wayline.IsUseable = true;
+
         //销毁当前游戏体
         Destroy(this.gameObject, deathDelay);
 
+        //再生成一个敌人
+        spawn.GenerateEnemy();
 
     }
 }

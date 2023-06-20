@@ -14,9 +14,9 @@ public class EnemyAnimation : MonoBehaviour
     private Animation animate;
     private AnimationAction animateAction;
 
-    public string StartAnimation;
-    public string EndAnimation;
     public string deathName;
+    public string atrackName;
+    public string runName;
 
 
     private void Awake()
@@ -25,13 +25,8 @@ public class EnemyAnimation : MonoBehaviour
         this.animateAction = new AnimationAction(this.animate);
     }
 
-    public void PlayStartAnimation()
+    public void Play(string name)
     {
-        this.animateAction.Play(StartAnimation);
-    }
-
-    public void fireAnimation()
-    {
-        this.animate.Play(EndAnimation);
+        this.animateAction.Play(name);
     }
 }
