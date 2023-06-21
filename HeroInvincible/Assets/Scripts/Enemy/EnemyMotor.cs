@@ -40,23 +40,23 @@ public class EnemyMotor : MonoBehaviour
     /// 寻路，判断当前位置是否为终点
     /// </summary>
     /// <returns></returns>
+    //public bool Pathfinding()
+    //{
+    //    if (currentIndex >= ePointers.Length) return false;
+
+    //    LookRotation(ePointers[currentIndex].position);
+    //    MoveForward();
+
+    //    if (Vector3.Distance(transform.position, ePointers[currentIndex].position) <= 0.1) 
+    //    {
+    //        currentIndex++;
+    //    }
+
+    //    // return true表示可以继续移动，继续寻路
+    //    return true;
+    //}
+
     public bool Pathfinding()
-    {
-        if (currentIndex >= ePointers.Length) return false;
-
-        LookRotation(ePointers[currentIndex].position);
-        MoveForward();
-
-        if (Vector3.Distance(transform.position, ePointers[currentIndex].position) <= 0.1) 
-        {
-            currentIndex++;
-        }
-
-        // return true表示可以继续移动，继续寻路
-        return true;
-    }
-
-    public bool Pathfinding2()
     {
         if (currentIndex >= wayline.Pointers.Length) return false;
 
@@ -74,6 +74,6 @@ public class EnemyMotor : MonoBehaviour
 
     private void Update()
     {
-        Pathfinding2();
+        Pathfinding();
     }
 }

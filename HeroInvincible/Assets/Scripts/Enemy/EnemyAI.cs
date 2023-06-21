@@ -8,6 +8,7 @@ using UnityEngine;
 ///
 /// </summary>
 
+[RequireComponent(typeof(EnemyAnimation)), RequireComponent(typeof(EnemyMotor)), RequireComponent(typeof(EnemyStatusInfo)) ]
 public class EnemyAI : MonoBehaviour
 {
 
@@ -23,6 +24,7 @@ public class EnemyAI : MonoBehaviour
     private EnemyAnimation enemyAnimation;
     private EnemyMotor enemyMotor;
     private EnemyStatusInfo enemyStatusInfo;
+    public float atrackInternal = 1;
 
     private void Awake()
     {
@@ -44,22 +46,29 @@ public class EnemyAI : MonoBehaviour
         switch (this.currentState)
         {
             case EnemyState.PathFinding:
+                this.enemyAnimation.Play(enemyAnimation.runName);
                 if (!this.enemyMotor.Pathfinding())
                 {
                     this.currentState = EnemyState.Atrack;
-                }
-                else
-                {
-                    this.enemyAnimation.Play(enemyAnimation.runName);
                 }
 
                 break;
             case EnemyState.Atrack:
 
+
                 if (nextTime <= Time.time)
                 {
+                    //攻击动画
                     this.enemyAnimation.Play(enemyAnimation.atrackName);
-                    nextTime += 1;
+                    nextTime += atrackInternal;
+                }
+                else
+                {
+                    if (!this.enemyAnimation.IsPlaying(enemyAnimation.atrackName))
+                    {
+                        //闲置动画
+                        this.enemyAnimation.Play(enemyAnimation.idleName);
+                    }
                 }
 
                 break;
