@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{4AEF5DD1-0384-01A6-B959-4932D38B1F92}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/WayLine.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy/EnemyMotor.cs">
     <Files>
-      <File FileName="Assets/Scripts/Enemy/EnemyMotor.cs" Line="58" Column="1" IsPinned="True" />
-      <File FileName="Assets/Scripts/Enemy/EnemyStatusInfo.cs" Line="32" Column="6" />
+      <File FileName="Assets/Scripts/Enemy/EnemyMotor.cs" Line="62" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/Enemy/EnemyStatusInfo.cs" Line="23" Column="6" />
       <File FileName="Assets/Scripts/Enemy/EnemyAnimation.cs" Line="43" Column="2" />
       <File FileName="Assets/Scripts/Enemy/EnemyAI.cs" Line="73" Column="1" />
       <File FileName="Assets/Scripts/Enemy/AnimationAction.cs" Line="31" Column="1" />
-      <File FileName="Assets/Scripts/Enemy/WayLine.cs" Line="22" Column="42" />
-      <File FileName="Assets/Scripts/Enemy/EnemySpawn.cs" Line="42" Column="1" />
+      <File FileName="Assets/Scripts/Enemy/WayLine.cs" Line="7" Column="54" />
+      <File FileName="Assets/Scripts/Enemy/EnemySpawn.cs" Line="25" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Enemy" expanded="True">
-                  <Node name="WayLine.cs" selected="True" />
+                  <Node name="EnemyMotor.cs" selected="True" />
                 </Node>
               </Node>
             </Node>

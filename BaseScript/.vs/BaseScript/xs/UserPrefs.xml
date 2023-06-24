@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{336883B7-8AF7-A93F-B589-26670A751C09}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ZoomHelper.cs">
     <Files>
-      <File FileName="Assets/Scripts/Enemy.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/ZoomHelper.cs" Line="31" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
