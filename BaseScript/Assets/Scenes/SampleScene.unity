@@ -387,6 +387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd0501241b9d463d84439751a45c2b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 10
 --- !u!4 &441926991
 Transform:
   m_ObjectHideFlags: 0
@@ -908,6 +909,8 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -948,7 +951,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 47
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -990,6 +993,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d1c42a256192348ef956298bcc39ccea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94da897176cb42da8a179f844e794fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFar: 0
+  section: 14000000280000003c000000
+  currentSectionIndex: 0
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e156c7e60cd314af98366267aedab0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1024258791
@@ -1130,6 +1160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd0501241b9d463d84439751a45c2b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 10
 --- !u!1 &1264209045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,6 +1365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd0501241b9d463d84439751a45c2b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 10
 --- !u!1001 &8908740714466906494
 PrefabInstance:
   m_ObjectHideFlags: 0
