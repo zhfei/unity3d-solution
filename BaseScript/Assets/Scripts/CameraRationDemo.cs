@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 /// <summary>
-///
+/// 摄像头随鼠标，键盘前进，后台，上下左右旋转
 /// </summary>
 
 public class CameraRationDemo : MonoBehaviour

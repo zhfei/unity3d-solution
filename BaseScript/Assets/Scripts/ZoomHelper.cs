@@ -4,7 +4,7 @@ using UnityEngine;
 
 
 /// <summary>
-///
+/// 枪的瞄准镜，放大镜
 /// </summary>
 
 public class ZoomHelper : MonoBehaviour
