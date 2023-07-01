@@ -50,5 +50,42 @@ public class EulerDemo : MonoBehaviour
         {
             this.transform.eulerAngles += Vector3.forward;
         }
+
+
+        //四元数就是用来旋转用的，它是轴角模式的旋转,与欧拉角不同的是四元数的旋转全部是绕自己的x,y,z轴旋转。而欧拉角是x,z绕自身的轴y是绕世界坐标系的y，用来解决欧拉角的万向节死锁问题
+        if (GUILayout.RepeatButton("四元数旋转"))
+        {
+            //四元数设置需要2个条件：1.绕哪个轴，2.转多少度
+
+            //绕y轴
+            Vector3 axis = Vector3.right;
+            //旋转弧度
+            float radValue = 60 * Mathf.Deg2Rad;
+
+            //组建四元数
+            Quaternion qt = new Quaternion();
+            qt.x = axis.x * Mathf.Sin(radValue / 2);
+            qt.y = axis.y * Mathf.Sin(radValue / 2);
+            qt.z = axis.z * Mathf.Sin(radValue / 2);
+            qt.w = Mathf.Cos(radValue / 2);
+            //设置四元数
+            //this.transform.rotation = qt;
+
+            //使用系统便捷方式设置四元数。欧拉角转成四元数
+            this.transform.rotation = Quaternion.Euler(60,0,0);
+        }
+
+        if (GUILayout.RepeatButton("四元数X轴旋转"))
+        {
+            this.transform.rotation *= Quaternion.Euler(1,0,0);
+        }
+        if (GUILayout.RepeatButton("四元数Y轴旋转"))
+        {
+            this.transform.rotation *= Quaternion.Euler(0, 1, 0);
+        }
+        if (GUILayout.RepeatButton("四元数Z轴旋转"))
+        {
+            this.transform.rotation *= Quaternion.Euler(0, 0, 1);
+        }
     }
 }
