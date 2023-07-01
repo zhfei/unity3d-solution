@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VectorDemo.cs">
     <Files>
       <File FileName="Assets/Scripts/Enemy.cs" Line="26" Column="1" />
-      <File FileName="Assets/Scripts/ZoomHelper.cs" Line="7" Column="14" />
-      <File FileName="Assets/Scripts/CameraRationDemo.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/VectorDemo.cs" Line="7" Column="9" />
+      <File FileName="Assets/Scripts/ZoomHelper.cs" />
+      <File FileName="Assets/Scripts/CameraRationDemo.cs" />
+      <File FileName="Assets/Scripts/VectorDemo.cs" Line="111" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
