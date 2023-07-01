@@ -10,6 +10,7 @@ using UnityEngine;
 
 public class EulerDemo : MonoBehaviour
 {
+    public Vector3 target;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,19 @@ public class EulerDemo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //四元数应用：求当前坐标右前方30度，距离10的坐标
+        if (Input.GetMouseButtonDown(1))
+        {
+            Vector3 v0 = new Vector3(0,0,10);
+
+            // v0向量绕y轴旋转60度
+            Vector3 v1 = Quaternion.Euler(0, 30, 0) * v0;
+            // v1随自身四元数的旋转而旋转
+            Vector3 v2 = this.transform.rotation * v1;
+            // 两个向量相加，意义：将这个v0向量的起点移动到当前物体的位置上。
+            target = this.transform.position + v2;
+        }
+        Debug.DrawLine(this.transform.position, target,Color.blue);
     }
 
     //欧拉角和四元数：用于表示一个物体在三维坐标系中的位置
