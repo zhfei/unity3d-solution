@@ -16,7 +16,10 @@ public class BombDemo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        var gameObj = GameObject.FindGameObjectWithTag("Player");
+        playerTF = gameObj.transform;
+        playerRadius = gameObj.GetComponent<CapsuleCollider>().radius;
+
     }
 
     // Update is called once per frame
@@ -30,10 +33,13 @@ public class BombDemo : MonoBehaviour
         //已知：cosX = b/c, X = arc Cos(b/c)
         float deg = Mathf.Acos(playerRadius / player2bumbV.magnitude)*Mathf.Rad2Deg;
 
-        Vector3 topV = Quaternion.Euler(0, 0, -deg) * targetV;
-        Vector3 bottomV = Quaternion.Euler(0, 0, deg) * targetV;
+        Vector3 topV = Quaternion.Euler(0, -deg,0) * targetV;
+        Vector3 bottomV = Quaternion.Euler(0,  deg,0) * targetV;
 
-        Vector3 topPosition = this.transform.position + topV;
-        Vector3 bottomPosition = this.transform.position + bottomV;
+        Vector3 topPosition = playerTF.position + topV;
+        Vector3 bottomPosition = playerTF.position + bottomV;
+
+        Debug.DrawLine(this.transform.position, topPosition, Color.yellow);
+        Debug.DrawLine(this.transform.position, bottomPosition, Color.yellow);
     }
 }
