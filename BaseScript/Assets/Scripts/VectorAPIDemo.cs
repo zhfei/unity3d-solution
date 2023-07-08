@@ -17,7 +17,10 @@ public class VectorAPIDemo : MonoBehaviour
 
     public AnimationCurve curve;
     private float x;
-    public float time = 1;
+    public float time = 5;
+
+    //test
+    private float speetScall = 1/30;
 
     // Start is called before the first frame update
     void Start1()
@@ -48,6 +51,8 @@ public class VectorAPIDemo : MonoBehaviour
         //计算t1物体在地面上的投影
         Vector3 norm = t1.position;
         Vector3 project = Vector3.ProjectOnPlane(norm, Vector3.up);
+        Debug.DrawLine(Vector3.zero, norm);
+        Debug.DrawLine(Vector3.zero, project, Color.red);
 
         //计算反射向量：Vector3.Reflect;
 
@@ -60,10 +65,10 @@ public class VectorAPIDemo : MonoBehaviour
         {
             //Lerp有快到慢，每次前进总长度的10%,无限接近目标点；
             //每次都是起点改变，终点和比例不变。
-            this.transform.position = Vector3.Lerp(transform.position, new Vector3(0, 0, 10), 0.1f);
+            this.transform.position = Vector3.Lerp(transform.position, new Vector3(0, 0, 10), 0.1f*Time.deltaTime);
         }
 
-        if (GUILayout.RepeatButton("MoveTowards"))
+        if (GUILayout.RepeatButton("MoveTowards---------------"))
         {
             //匀速前进,无限接近目标点；
             this.transform.position = Vector3.MoveTowards(transform.position, new Vector3(0, 0, 10), 0.1f);
@@ -71,7 +76,7 @@ public class VectorAPIDemo : MonoBehaviour
 
         if (GUILayout.RepeatButton("SmoothDamp"))
         {
-            //平滑阻尼
+            //平滑阻尼,速度按固定的速率在减弱
             this.transform.position = Vector3.SmoothDamp(transform.position, new Vector3(0,0,10),ref currentSpeed,2);
         }
 
