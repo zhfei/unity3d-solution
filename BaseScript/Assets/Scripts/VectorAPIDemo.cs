@@ -85,7 +85,8 @@ public class VectorAPIDemo : MonoBehaviour
             x += Time.deltaTime / time;
             Vector3 begin = Vector3.zero;
 
-            //起点，终点不变，比例改变
+            //与Lerp变速对比变速运动为：起点，终点不变，比例改变
+            //curve.Evaluate(x)：随着时间的变化，根据x值取y值。因为x值没有，这里自己造一个，通过x += Time.deltaTime累加法，每秒加一
             transform.position = Vector3.LerpUnclamped(begin, new Vector3(0,0,10),curve.Evaluate(x));
         }
 

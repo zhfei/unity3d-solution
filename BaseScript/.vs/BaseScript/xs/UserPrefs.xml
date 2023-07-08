@@ -1,10 +1,11 @@
 ﻿<Properties StartupConfiguration="{336883B7-8AF7-A93F-B589-26670A751C09}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VectorAPIDemo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/QuaternionAPIDemo.cs">
     <Files>
       <File FileName="Assets/Scripts/EulerDemo.cs" Line="29" Column="58" />
       <File FileName="Assets/Scripts/BombDemo.cs" />
-      <File FileName="Assets/Scripts/VectorAPIDemo.cs" Line="85" Column="40" />
+      <File FileName="Assets/Scripts/VectorAPIDemo.cs" Line="88" Column="42" />
       <File FileName="Assets/Scripts/VectorDemo.cs" />
+      <File FileName="Assets/Scripts/QuaternionAPIDemo.cs" Line="16" Column="44" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +13,7 @@
           <Node name="BaseScript" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="VectorAPIDemo.cs" selected="True" />
+                <Node name="QuaternionAPIDemo.cs" selected="True" />
               </Node>
             </Node>
           </Node>
