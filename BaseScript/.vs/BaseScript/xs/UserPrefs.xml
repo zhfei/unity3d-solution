@@ -3,18 +3,16 @@
     <Files>
       <File FileName="Assets/Scripts/EulerDemo.cs" Line="29" Column="58" />
       <File FileName="Assets/Scripts/BombDemo.cs" />
-      <File FileName="Assets/Scripts/VectorAPIDemo.cs" Line="88" Column="42" />
+      <File FileName="Assets/Scripts/VectorAPIDemo.cs" />
       <File FileName="Assets/Scripts/VectorDemo.cs" />
-      <File FileName="Assets/Scripts/QuaternionAPIDemo.cs" Line="16" Column="44" />
+      <File FileName="Assets/Scripts/QuaternionAPIDemo.cs" Line="48" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaseScript" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="QuaternionAPIDemo.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -23,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="71976df1-c5a1-477b-9369-fc6e7800f42f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="273dfa06-3e81-4093-96cb-322a07779675" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
