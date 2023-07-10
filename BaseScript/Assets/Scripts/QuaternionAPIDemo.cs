@@ -10,6 +10,7 @@ using UnityEngine;
 
 public class QuaternionAPIDemo : MonoBehaviour
 {
+    public float moveSpeed = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,8 @@ public class QuaternionAPIDemo : MonoBehaviour
         //2.欧拉角 -> 四元数
         Quaternion qt02 = Quaternion.Euler(0, 90, 0);
         //3.轴、角转换
-        transform.rotation = Quaternion.AngleAxis(30, Vector3.up);
-        transform.localRotation = Quaternion.AngleAxis(30,Vector3.up);
+        //transform.rotation = Quaternion.AngleAxis(30, Vector3.up);
+        //transform.localRotation = Quaternion.AngleAxis(30,Vector3.up);
 
     }
 
@@ -78,8 +79,19 @@ public class QuaternionAPIDemo : MonoBehaviour
         var hRes = Input.GetAxis("Horizontal");
         var vRes = Input.GetAxis("Vertical");
 
-        Debug.Log(string.Format("hRes:{0}- vRes:{1}", hRes, vRes));
-        transform.rotation = Quaternion.LookRotation(new Vector3(hRes, 0, vRes));
+        if (hRes != 0 || vRes != 0)
+        {
+            Debug.Log(string.Format("hRes:{0}- vRes:{1}", hRes, vRes));
+            //transform.rotation = Quaternion.LookRotation(new Vector3(hRes, 0, vRes));
 
+            //带旋转过程
+            var targetRotation = Quaternion.LookRotation(new Vector3(hRes, 0, vRes));
+            transform.rotation = Quaternion.Lerp(this.transform.rotation, targetRotation, moveSpeed *Time.deltaTime);
+            
+
+            transform.Translate(0, 0, moveSpeed * Time.deltaTime);
+        }
     }
+
+    
 }
