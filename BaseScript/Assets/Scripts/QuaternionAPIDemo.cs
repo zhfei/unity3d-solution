@@ -43,6 +43,7 @@ public class QuaternionAPIDemo : MonoBehaviour
         if (GUILayout.RepeatButton("Lerp"))
         {
             //5.Lerp差值旋转，由快到慢
+            //它与注视旋转的区别是：注视旋转是一帧设置完成，Lerp是多帧设置完成
             transform.rotation = Quaternion.Lerp(transform.rotation, dir, 0.1f);
         }
         if (GUILayout.RepeatButton("RotateTowards"))
@@ -65,8 +66,20 @@ public class QuaternionAPIDemo : MonoBehaviour
 
     void Update()
     {
+        //上面提供的方法默认的旋转轴是绕z轴，如果想绕x轴旋转,可通过下面的方式
+        //this.transform.right = target.position - this.transform.position;
+        //从x轴正方向 -> 注视目标位置的方向
         //8.从？到？的旋转
         //transform.rotation = Quaternion.FromToRotation(Vector3.right, target.position - transform.position);
+
+
+
+        //课后作业：物体随ad/sw进行上下旋转
+        var hRes = Input.GetAxis("Horizontal");
+        var vRes = Input.GetAxis("Vertical");
+
+        Debug.Log(string.Format("hRes:{0}- vRes:{1}", hRes, vRes));
+        transform.rotation = Quaternion.LookRotation(new Vector3(hRes, 0, vRes));
 
     }
 }
