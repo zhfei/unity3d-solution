@@ -42,6 +42,30 @@ public class PlayControllerDemo : MonoBehaviour
         //模拟左右旋转，移动，判断是否移除到屏幕之外
         if (hRes != 0 || vRes != 0)
         {
+            //上出下进，右出左进
+            Vector3 sp0 = Camera.main.WorldToScreenPoint(transform.position);
+            if (sp0.x > Screen.width)
+            {
+                sp0.x = 0;
+                transform.position = Camera.main.ScreenToWorldPoint(sp0);
+            }
+            if (sp0.x < 0)
+            {
+                sp0.x = Screen.width;
+                transform.position = Camera.main.ScreenToWorldPoint(sp0);
+            }
+            if (sp0.y > Screen.height)
+            {
+                sp0.y = 0;
+                transform.position = Camera.main.ScreenToWorldPoint(sp0);
+            }
+            if (sp0.y < 0)
+            {
+                sp0.y = Screen.height;
+                transform.position = Camera.main.ScreenToWorldPoint(sp0);
+            }
+
+
             var qt = Quaternion.LookRotation(new Vector3(hRes,0,vRes));
             qt = Quaternion.Lerp(transform.rotation,qt,1*Time.deltaTime);
             transform.rotation = qt;
