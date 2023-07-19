@@ -7,14 +7,16 @@
       <File FileName="Assets/Scripts/VectorAPIDemo.cs" />
       <File FileName="Assets/Scripts/VectorDemo.cs" />
       <File FileName="Assets/Scripts/PlayControllerDemo.cs" Line="62" Column="27" />
-      <File FileName="Assets/Scripts/ColisionDemo.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/ColisionDemo.cs" Line="28" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BaseScript" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ColisionDemo.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
