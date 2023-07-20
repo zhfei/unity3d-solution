@@ -39,4 +39,21 @@ public class ColisionDemo : MonoBehaviour
     {
         
     }
+
+
+    //触发回调
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(string.Format("触发器触发了：{0}", other.name));
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        
+    }
 }
