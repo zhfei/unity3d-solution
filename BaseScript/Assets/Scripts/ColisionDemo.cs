@@ -11,19 +11,7 @@ using UnityEngine;
 public class ColisionDemo : MonoBehaviour
 {
 
-    public float speet = 30;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float speet = 300;
 
     // 碰撞开始时，接触的第一帧，触发回调
     private void OnCollisionEnter(Collision collision)
@@ -72,4 +60,39 @@ public class ColisionDemo : MonoBehaviour
         Debug.Log(string.Format("frameCount: {0}", Time.frameCount));
         this.transform.Translate(Time.deltaTime * speet * -1, 0, 0);
     }
+
+
+    private RaycastHit hit;
+    public LayerMask layer;
+    private Vector3 targetPos;
+    // 使用射线解决移动速度过快，接触检查失效问题
+    void Start()
+    {
+        //射线投射命中
+        //射线投射：Raycast(起点坐标，方向，受击物体信息，距离，图层)
+        var res = Physics.Raycast(this.transform.position, -this.transform.right, out hit, 500, layer);
+        if (res)
+        {
+            //击中的位置
+            targetPos = hit.point;
+        }
+        else
+        {
+            //没有命中目标
+            //targetPos = this.transform.TransformPoint(0,0,500);
+            targetPos = this.transform.position + (-this.transform.right * 100);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, targetPos, speet*Time.deltaTime);
+        if ((transform.position - targetPos).sqrMagnitude < 0.1)
+        {
+            //击中: 击中的物体销毁，子弹也销毁
+            Destroy(hit.collider.gameObject);
+            Destroy(this.gameObject);
+        }
+    }  
 }
