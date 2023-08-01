@@ -157,6 +157,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speet: 30
+  layer:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!65 &62785495
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -502,6 +505,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speet: 30
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!65 &435769979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2309,6 +2315,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speet: 30
+  layer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!54 &1326059580
 Rigidbody:
   m_ObjectHideFlags: 0

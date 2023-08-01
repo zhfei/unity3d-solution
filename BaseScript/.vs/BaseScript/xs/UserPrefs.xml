@@ -1,13 +1,9 @@
 ﻿<Properties StartupConfiguration="{336883B7-8AF7-A93F-B589-26670A751C09}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ColisionDemo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gun/Gun.cs">
     <Files>
-      <File FileName="Assets/Scripts/QuaternionAPIDemo.cs" Line="27" Column="6" />
-      <File FileName="Assets/Scripts/EulerDemo.cs" />
-      <File FileName="Assets/Scripts/BombDemo.cs" />
-      <File FileName="Assets/Scripts/VectorAPIDemo.cs" />
-      <File FileName="Assets/Scripts/VectorDemo.cs" />
-      <File FileName="Assets/Scripts/PlayControllerDemo.cs" />
-      <File FileName="Assets/Scripts/ColisionDemo.cs" Line="77" Column="2" />
+      <File FileName="Assets/Scripts/Gun/SingleGun.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/Gun/AutomaticGun.cs" Line="16" Column="6" />
+      <File FileName="Assets/Scripts/Gun/Gun.cs" Line="42" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +11,9 @@
           <Node name="BaseScript" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ColisionDemo.cs" selected="True" />
+                <Node name="Gun" expanded="True">
+                  <Node name="Gun.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -25,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f70a7193-773c-4af4-902b-b7383301f8a3" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d134a774-bf3e-4159-a41c-c5fbc0ea1623" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
