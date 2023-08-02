@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{336883B7-8AF7-A93F-B589-26670A751C09}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Gun/EnemyBullet.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ColisionDemo.cs">
     <Files>
       <File FileName="Assets/Scripts/Gun/SingleGun.cs" Line="10" Column="29" />
       <File FileName="Assets/Scripts/Gun/AutomaticGun.cs" />
       <File FileName="Assets/Scripts/Gun/Gun.cs" />
       <File FileName="Assets/Scripts/Gun/Bullet.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/Gun/PlayerBullet.cs" Line="13" Column="15" />
-      <File FileName="Assets/Scripts/Gun/EnemyBullet.cs" Line="10" Column="34" />
+      <File FileName="Assets/Scripts/Gun/PlayerBullet.cs" Line="16" Column="6" />
+      <File FileName="Assets/Scripts/Gun/EnemyBullet.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/ColisionDemo.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +15,8 @@
           <Node name="BaseScript" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Gun" expanded="True">
-                  <Node name="EnemyBullet.cs" selected="True" />
-                </Node>
+                <Node name="Gun" expanded="True" />
+                <Node name="ColisionDemo.cs" selected="True" />
               </Node>
             </Node>
           </Node>

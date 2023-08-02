@@ -88,6 +88,7 @@ public class ColisionDemo : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speet*Time.deltaTime);
+        //子弹从发射位置走到击中的位置就停止了
         if ((transform.position - targetPos).sqrMagnitude < 0.1)
         {
             //击中: 击中的物体销毁，子弹也销毁
