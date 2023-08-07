@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{79ECB820-0F19-0B36-EF58-7F37EAC910C6}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/RectTransformDemo.cs">
+    <Files>
+      <File FileName="Assets/Script/RectTransformDemo.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UGUIDemo" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Script" expanded="True">
+                <Node name="RectTransformDemo.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3ffb05e5-d44c-441f-9dbe-f2b2df2e6a9b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
