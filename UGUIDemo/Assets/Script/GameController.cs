@@ -30,6 +30,13 @@ public class GameController : MonoBehaviour
 
     void CreateSprite(int row, int col)
     {
+        //
+        /*
+         * 创建UI的方法：
+         * 1.创建预制件,通过Instantiate()加载
+         * 2.通过代码创建
+         */
+
         GameObject go = new GameObject(row.ToString()+col.ToString());
         go.AddComponent<Image>();
         go.transform.SetParent(this.transform,false);
