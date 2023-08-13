@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class ResourcesManager
 {
-    private static Sprite[] spriteList;
+    private static Dictionary<int, Sprite> spriteDict;
     //静态构造函数，调用时机是在类加载的时候被调用
     static ResourcesManager()
     {
@@ -18,7 +18,12 @@ public class ResourcesManager
         //单个精灵加载
         //Sprite sprite = Resources.Load<Sprite>("2048Atlas");
         //加载精灵图集
-        spriteList = Resources.LoadAll<Sprite>("2048Atlas");
+        var spriteList = Resources.LoadAll<Sprite>("2048Atlas");
+        foreach (var item in spriteList)
+        {
+            int itemValue = int.Parse(item.name);
+            spriteDict.Add(itemValue, item);
+        }
     }
 
     /// <summary>
@@ -29,14 +34,16 @@ public class ResourcesManager
     public static Sprite? LoadSprite(int number)
     {
         
-        foreach (var item in spriteList)
-        {
-            if (item.name == number.ToString())
-            {
-                return item;
-            }
-        }
-        return null;
+        //foreach (var item in spriteList)
+        //{
+        //    if (item.name == number.ToString())
+        //    {
+        //        return item;
+        //    }
+        //}
+        //return null;
+
+        return spriteDict[number];
          
     }
 }
