@@ -59,6 +59,7 @@
     <Compile Include="Assets/Script/NumberSprite.cs" />
     <Compile Include="Assets/Script/RectTransformDemo.cs" />
     <Compile Include="Assets/Script/GameController.cs" />
+    <Compile Include="Assets/Script/ResourcesManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
