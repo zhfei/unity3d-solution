@@ -39,6 +39,8 @@ public class GameController : MonoBehaviour
 
         GameObject go = new GameObject(row.ToString()+col.ToString());
         go.AddComponent<Image>();
+        NumberSprite numSprint = go.AddComponent<NumberSprite>();
+        numSprint.SetImage(0);
         go.transform.SetParent(this.transform,false);
     }
 }

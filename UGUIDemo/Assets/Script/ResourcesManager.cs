@@ -19,8 +19,11 @@ public class ResourcesManager
         //Sprite sprite = Resources.Load<Sprite>("2048Atlas");
         //加载精灵图集
         var spriteList = Resources.LoadAll<Sprite>("2048Atlas");
+
+        spriteDict = new Dictionary<int, Sprite>();
         foreach (var item in spriteList)
         {
+            Debug.Log(string.Format("{0}:{1}", item, item.name));
             int itemValue = int.Parse(item.name);
             spriteDict.Add(itemValue, item);
         }
@@ -31,7 +34,7 @@ public class ResourcesManager
     /// </summary>
     /// <param name="number">精灵名称对应的数字</param>
     /// <returns>精灵</returns>
-    public static Sprite? LoadSprite(int number)
+    public static Sprite LoadSprite(int number)
     {
         
         //foreach (var item in spriteList)
