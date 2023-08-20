@@ -60,9 +60,9 @@
     <Compile Include="Assets/Script/NumberSprite.cs" />
     <Compile Include="Assets/Script/RectTransformDemo.cs" />
     <Compile Include="Assets/Script/GameController.cs" />
-    <Compile Include="Assets/Resources/Core/GameCore.cs" />
     <Compile Include="Assets/Resources/Core/Location.cs" />
     <Compile Include="Assets/Resources/Core/MoveDirection.cs" />
+    <Compile Include="Assets/Resources/Core/GameCore.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

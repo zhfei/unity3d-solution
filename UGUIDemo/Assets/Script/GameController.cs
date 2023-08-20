@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Console2048;
+using System;
 
 
 /// <summary>
@@ -10,9 +12,12 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
+    private GameCore core;
+
     // Start is called before the first frame update
     void Start()
     {
+        core = new GameCore();
         Init();
     }
 
@@ -43,4 +48,22 @@ public class GameController : MonoBehaviour
         numSprint.SetImage(0);
         go.transform.SetParent(this.transform,false);
     }
+
+    private void GenerateNewNumber()
+    {
+        /*
+         * Location? loc;
+            int? number;
+            获取值的方式为 loc.value;
+         */
+
+
+        Location loc;
+        int number;
+
+        //out: 输出参数
+        core.GenerateNumber(out loc, out number);
+    }
+
+   
 }
