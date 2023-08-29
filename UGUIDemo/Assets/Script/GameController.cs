@@ -13,12 +13,18 @@ using System;
 public class GameController : MonoBehaviour
 {
     private GameCore core;
-
+    //精灵脚本二维数组
+    private NumberSprite[,] spriteActionArray;
     // Start is called before the first frame update
     void Start()
     {
         core = new GameCore();
+        spriteActionArray = new NumberSprite[4,4];
+
         Init();
+
+        GenerateNewNumber();
+        GenerateNewNumber();
     }
 
     // Update is called once per frame
@@ -45,6 +51,8 @@ public class GameController : MonoBehaviour
         GameObject go = new GameObject(row.ToString()+col.ToString());
         go.AddComponent<Image>();
         NumberSprite numSprint = go.AddComponent<NumberSprite>();
+        //将精灵保存到二维数组
+        spriteActionArray[row, col] = numSprint;
         numSprint.SetImage(0);
         go.transform.SetParent(this.transform,false);
     }
@@ -63,6 +71,7 @@ public class GameController : MonoBehaviour
 
         //out: 输出参数
         core.GenerateNumber(out loc, out number);
+        spriteActionArray[loc.RIndex, loc.CIndex].SetImage(number);
     }
 
    
