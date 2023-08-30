@@ -63,6 +63,7 @@
     <Compile Include="Assets/Resources/Core/Location.cs" />
     <Compile Include="Assets/Resources/Core/MoveDirection.cs" />
     <Compile Include="Assets/Resources/Core/GameCore.cs" />
+    <Compile Include="Assets/Script/EventDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
