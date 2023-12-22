@@ -13,4 +13,14 @@ public class EventDemo : MonoBehaviour
     {
         print("Func1");
     }
+
+    public void Func2(string name)
+    {
+        print(name);
+    }
+
+    public void Func3_EndEdit(string name)
+    {
+        print("Func3_EndEdit: " + name);
+    }
 }
