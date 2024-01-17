@@ -1,4 +1,0 @@
-repository "AnimationEffectTest@frogaftersleep@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"

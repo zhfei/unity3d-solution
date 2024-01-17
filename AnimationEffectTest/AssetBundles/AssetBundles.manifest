@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2423916411
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: profab/cube.ab
+      Dependencies: {}
+    Info_1:
+      Name: profab/capsule.ab
+      Dependencies: {}

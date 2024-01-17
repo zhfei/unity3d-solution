@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1528515084
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6b1a9a8a26a5ae58a7ab57c876c21b85
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a70d99d87b215cc98e46a0f04e120ba2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Profab/Capsule.prefab
+Dependencies: []
