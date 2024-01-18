@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 342039150
+CRC: 3893174747
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1bfa74a18d32cb9785a3d6595d924bd1
+    Hash: e05704a16cf7b091e080c9a14e8b0051
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5bd407873b00d6c5e4aafabc2ce53bab
+    Hash: 2f587ae8b4b7b90655a2f5c83f827dd0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -17,17 +17,14 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 23
   Script: {instanceID: 0}
-- Class: 28
-  Script: {instanceID: 0}
 - Class: 33
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
-- Class: 48
-  Script: {instanceID: 0}
-- Class: 65
+- Class: 136
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Profab/Cube.prefab
-Dependencies: []
+- Assets/Profab/Capsule.prefab
+Dependencies:
+- /Users/zhoufei/Documents/Unity3D/unity3d-solution/AnimationEffectTest/AssetBundles/share.ab

@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{CEF5A4DC-4460-CF30-ACA7-00A2CC10B6DA}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadFromFile.cs">
     <Files>
-      <File FileName="Assets/Scripts/AssetBundleEditor.cs" Line="15" Column="44" />
-      <File FileName="Assets/Scripts/LoadFromFile.cs" Line="15" Column="9" />
+      <File FileName="Assets/Scripts/LoadFromFile.cs" Line="15" Column="78" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AnimationEffectTest" expanded="True" selected="True" />
+          <Node name="AnimationEffectTest" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="LoadFromFile.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

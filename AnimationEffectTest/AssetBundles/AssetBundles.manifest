@@ -1,10 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2423916411
+CRC: 3324746766
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: profab/cube.ab
+      Name: share.ab
       Dependencies: {}
     Info_1:
-      Name: profab/capsule.ab
-      Dependencies: {}
+      Name: capsule.ab
+      Dependencies:
+        Dependency_0: share.ab
+    Info_2:
+      Name: cube.ab
+      Dependencies:
+        Dependency_0: share.ab
