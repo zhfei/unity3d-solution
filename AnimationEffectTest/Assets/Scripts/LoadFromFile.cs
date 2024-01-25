@@ -21,6 +21,7 @@ public class LoadFromFile : MonoBehaviour
         string profabPath3 = @"http://localhost/AssetBundles/cylinder.ab";
 
         string profabPath4 = @"http://localhost/AssetBundles/sphere.ab";
+        string assetBundleManifestPath = "AssetBundles/AssetBundles";
 
         // 1.读取本地ab包
         LoadFromFileMethod(profabPath, sharePath);
@@ -34,6 +35,9 @@ public class LoadFromFile : MonoBehaviour
 
         // 4.启动一个协程,使用UnityWebRequest读取内存ab包
         StartCoroutine(LoadWithUnityWebRequest(profabPath4));
+
+        // 5.加载manifest
+        LoadManifestFile(assetBundleManifestPath);
     }
 
     //1.从本地读取
@@ -104,6 +108,22 @@ public class LoadFromFile : MonoBehaviour
         ////数据保存到本地
         //File.WriteAllBytes(path, (request.downloadHandler as DownloadHandlerAssetBundle).data);
 
+    }
+
+    //5.加载manifest文件， 通过manifest提前加载一个ab包的依赖包，防止资源丢失
+    void LoadManifestFile(string path) {
+        AssetBundle assetBundle = AssetBundle.LoadFromFile(path);
+        AssetBundleManifest assetBundleManifest = assetBundle.LoadAsset<AssetBundleManifest>("AssetBundleManifest");
+        //查看所有的ab包
+        foreach (string name in assetBundleManifest.GetAllAssetBundles()) {
+            Debug.Log(name);
+        }
+
+        string[] strs = assetBundleManifest.GetAllDependencies("cube.ab");
+        foreach (string name in strs) {
+            Debug.Log("加载依赖包："+name);
+            AssetBundle.LoadFromFile("AssetBundles/" + name);
+        }
     }
 
     // Update is called once per frame
