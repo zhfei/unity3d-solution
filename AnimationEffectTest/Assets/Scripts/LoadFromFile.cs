@@ -90,7 +90,7 @@ public class LoadFromFile : MonoBehaviour
         Instantiate(profab);
     }
 
-    //4.使用WWW工具请求网络AB包或者本地AB包
+    //4.使用UnityWebRequest工具请求网络AB包或者本地AB包
     IEnumerator LoadWithUnityWebRequest(string path)
     {
         UnityWebRequest request = UnityWebRequestAssetBundle.GetAssetBundle(path);
@@ -98,6 +98,12 @@ public class LoadFromFile : MonoBehaviour
         AssetBundle assetBundle = DownloadHandlerAssetBundle.GetContent(request);
         GameObject gameObject = assetBundle.LoadAsset<GameObject>("Sphere");
         Instantiate(gameObject);
+
+        
+        //AssetBundle assetBundle1 =  (request.downloadHandler as DownloadHandlerAssetBundle).assetBundle;
+        ////数据保存到本地
+        //File.WriteAllBytes(path, (request.downloadHandler as DownloadHandlerAssetBundle).data);
+
     }
 
     // Update is called once per frame
