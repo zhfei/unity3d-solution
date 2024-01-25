@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{CEF5A4DC-4460-CF30-ACA7-00A2CC10B6DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadFromFile.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/LoadFromFile.cs" Line="55" Column="30" />
+      <File FileName="Assets/Scripts/LoadFromFile.cs" Line="71" Column="39" />
       <File FileName="Assets/Editor/AssetBundleEditor.cs" Line="20" Column="1" />
     </Files>
     <Pads>
@@ -9,10 +9,10 @@
         <State name="__root__">
           <Node name="AnimationEffectTest" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Editor" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="LoadFromFile.cs" selected="True" />
+              <Node name="Editor" expanded="True">
+                <Node name="AssetBundleEditor.cs" selected="True" />
               </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -21,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b0b72dea-867a-4145-8af7-40683299565b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0abc7bf7-d3dd-44c6-bf4c-7da67d86ebe7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
