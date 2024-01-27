@@ -126,6 +126,19 @@ public class LoadFromFile : MonoBehaviour
         }
     }
 
+    //6.资源卸载
+    void UnLoadAssetBundle(string path)
+    {
+        AssetBundle assetBundle = AssetBundle.LoadFromFile(path);
+        //true：卸载所有的资源
+        //false: 卸载不使用的资源，对于正在使用的如Materal不卸载，这可能导致内存泄漏
+        //推荐固定卸载时机，自己把控是否使用，然后选择true进行卸载。
+        assetBundle.Unload(true);
+        //卸载单个不使用的资源，如果卸载Materal，防止资源
+        Resources.UnloadUnusedAssets();
+    }
+
+
     // Update is called once per frame
     void Update()
     {
