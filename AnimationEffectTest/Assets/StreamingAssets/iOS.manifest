@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 109656541
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: share.ab
+      Dependencies: {}
+    Info_1:
+      Name: capsule.ab
+      Dependencies:
+        Dependency_0: share.ab
+    Info_2:
+      Name: cube.ab
+      Dependencies:
+        Dependency_0: share.ab
+    Info_3:
+      Name: sphere.ab
+      Dependencies: {}
+    Info_4:
+      Name: cylinder.ab
+      Dependencies: {}
+    Info_5:
+      Name: main.unity3d
+      Dependencies: {}
