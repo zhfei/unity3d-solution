@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{127DA11E-2067-54D4-513A-E645E9E0EF05}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ExampleAssets/Scripts/AnchorCreator.cs">
+    <Files>
+      <File FileName="Assets/ExampleAssets/Scripts/AnchorCreator.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ARFoundationDemo" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ExampleAssets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="AnchorCreator.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d2b4501a-20e4-46a6-abe0-a832eff827a7" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
