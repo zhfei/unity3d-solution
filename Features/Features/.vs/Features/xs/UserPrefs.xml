@@ -1,15 +1,16 @@
-﻿<Properties StartupConfiguration="{336883B7-8AF7-A93F-B589-26670A751C09}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraRationDemo.cs">
+﻿<Properties StartupConfiguration="{D6E82116-EB8E-324A-BE92-C0362CE97BB4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GestureController.cs">
     <Files>
-      <File FileName="Assets/Scripts/Gun/Gun.cs" Line="28" Column="25" />
-      <File FileName="Assets/Scripts/CameraRationDemo.cs" Line="30" Column="50" />
+      <File FileName="Assets/Scripts/GestureController.cs" Line="115" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="BaseScript" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+          <Node name="Features" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="GestureController.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
