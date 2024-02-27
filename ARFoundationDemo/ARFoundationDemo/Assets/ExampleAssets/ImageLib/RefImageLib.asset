@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: RefImageLib
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5256576555107500586
+  m_GuidHigh: 8519553303877713565
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4728095872927869826
+      m_GuidHigh: 2947853626830397343
+    m_SerializedTextureGuid:
+      m_GuidLow: 2620743748606916609
+      m_GuidHigh: 7470314543284919721
+    m_Size: {x: 0.4, y: 0.19}
+    m_SpecifySize: 1
+    m_Name: ar_airplane
+    m_Texture: {fileID: 2800000, guid: d70a7801c08d245ea99dee687fe3ab67, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5496293411609657546
+      m_GuidHigh: 5407972557115196327
+    m_SerializedTextureGuid:
+      m_GuidLow: 4970491194148144372
+      m_GuidHigh: 18131999967252802299
+    m_Size: {x: 0.4, y: 0.56490254}
+    m_SpecifySize: 1
+    m_Name: ar_robot
+    m_Texture: {fileID: 2800000, guid: 026844f4bb6844fafb6a7f1be7cda1fb, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5297001538400684635
+      m_GuidHigh: 15972910117034806680
+    m_SerializedTextureGuid:
+      m_GuidLow: 4901102713750777880
+      m_GuidHigh: 8783972985702805001
+    m_Size: {x: 0.4, y: 0.54477215}
+    m_SpecifySize: 1
+    m_Name: ar_tom
+    m_Texture: {fileID: 2800000, guid: 74d1701836f34404096e7119e4f0e679, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5747562988246957049
+      m_GuidHigh: 6311883695081637280
+    m_SerializedTextureGuid:
+      m_GuidLow: 16483273509582296166
+      m_GuidHigh: 17603896359183233067
+    m_Size: {x: 0.4, y: 0.32023987}
+    m_SpecifySize: 1
+    m_Name: ar_tv
+    m_Texture: {fileID: 2800000, guid: c242546659ece4c02bb0e81f789a4df4, type: 3}
