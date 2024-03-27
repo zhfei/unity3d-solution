@@ -56,5 +56,14 @@ public class GameObjectCreater : MonoBehaviour
     void DelayFunc()
     {
         Debug.Log("延时执行："+Time.time);
+
+        //调用协程
+        StartCoroutine(DelayFunc2());
+    }
+
+    IEnumerator DelayFunc2()
+    {
+        Debug.Log("使用协程处理延时任务："+Time.time);
+        yield return  new WaitForSeconds(1.0f);
     }
 }
