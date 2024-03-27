@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{8BFB4F46-6716-BF02-7988-BEC91B95DDE3}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallTranslater.cs">
     <Files>
-      <File FileName="Assets/Scripts/Ball.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/Coin.cs" Line="8" Column="37" />
+      <File FileName="Assets/Scripts/Coin.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/BallTranslater.cs" Line="24" Column="104" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,7 @@
           <Node name="SimpleGeme" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Coin.cs" selected="True" />
+                <Node name="BallTranslater.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5d8a846f-0387-4ac9-810d-a8b39f7d43fc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9ddf43c4-f2b4-4eb7-8218-bad6b0853616" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

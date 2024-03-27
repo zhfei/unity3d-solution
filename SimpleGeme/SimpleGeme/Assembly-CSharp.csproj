@@ -56,8 +56,8 @@
     <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/Ball.cs" />
     <Compile Include="Assets/Scripts/Coin.cs" />
+    <Compile Include="Assets/Scripts/BallTranslater.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

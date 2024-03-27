@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ball : MonoBehaviour
+public class BallTranslater : MonoBehaviour
 {
     public float speed = 10f;
     // Start is called before the first frame update
@@ -21,7 +21,6 @@ public class Ball : MonoBehaviour
 
         //2.移动
         //this.transform.Translate(h * speed * Time.deltaTime, v * speed * Time.deltaTime, 0);
-        this.transform.position += new Vector3(h * speed * Time.deltaTime, v * speed * Time.deltaTime, 0);
-
+        this.transform.position += new Vector3(h * speed * Time.deltaTime, 0, v * speed * Time.deltaTime);
     }
 }
