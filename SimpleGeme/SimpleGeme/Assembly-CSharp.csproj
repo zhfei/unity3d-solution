@@ -62,6 +62,7 @@
     <Compile Include="Assets/Scripts/ColliderTrigger.cs" />
     <Compile Include="Assets/Scripts/Features/FindComponentAndGameObject.cs" />
     <Compile Include="Assets/Scripts/Features/FindComponentAndGameObjectWithFatherAndSon.cs" />
+    <Compile Include="Assets/Scripts/Features/GameObjectCreater.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{8BFB4F46-6716-BF02-7988-BEC91B95DDE3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Features/FindComponentAndGameObjectWithFatherAndSon.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Features/GameObjectCreater.cs">
     <Files>
       <File FileName="Assets/Scripts/Coin.cs" Line="16" Column="1" />
       <File FileName="Assets/Scripts/BallTranslater.cs" Line="12" Column="6" />
       <File FileName="Assets/Scripts/CameraFellow.cs" Line="9" Column="21" />
       <File FileName="Assets/Scripts/ColliderTrigger.cs" Line="12" Column="47" />
       <File FileName="Assets/Scripts/Features/FindComponentAndGameObject.cs" Line="13" Column="1" />
-      <File FileName="Assets/Scripts/Features/FindComponentAndGameObjectWithFatherAndSon.cs" Line="15" Column="6" />
+      <File FileName="Assets/Scripts/Features/FindComponentAndGameObjectWithFatherAndSon.cs" Line="22" Column="51" />
+      <File FileName="Assets/Scripts/Features/GameObjectCreater.cs" Line="10" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +16,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Features" expanded="True">
-                  <Node name="FindComponentAndGameObjectWithFatherAndSon.cs" selected="True" />
+                  <Node name="GameObjectCreater.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
