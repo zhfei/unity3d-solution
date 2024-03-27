@@ -59,6 +59,9 @@
     <Compile Include="Assets/Scripts/Coin.cs" />
     <Compile Include="Assets/Scripts/BallTranslater.cs" />
     <Compile Include="Assets/Scripts/CameraFellow.cs" />
+    <Compile Include="Assets/Scripts/ColliderTrigger.cs" />
+    <Compile Include="Assets/Scripts/Features/FindComponentAndGameObject.cs" />
+    <Compile Include="Assets/Scripts/Features/FindComponentAndGameObjectWithFatherAndSon.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
