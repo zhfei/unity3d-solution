@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{8BFB4F46-6716-BF02-7988-BEC91B95DDE3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallTranslater.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFellow.cs">
     <Files>
       <File FileName="Assets/Scripts/Coin.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/BallTranslater.cs" Line="24" Column="104" />
+      <File FileName="Assets/Scripts/BallTranslater.cs" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/CameraFellow.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="SimpleGeme" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="BallTranslater.cs" selected="True" />
+                <Node name="CameraFellow.cs" selected="True" />
               </Node>
             </Node>
           </Node>
