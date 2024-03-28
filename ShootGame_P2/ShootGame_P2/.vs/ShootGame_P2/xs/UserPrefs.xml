@@ -3,7 +3,7 @@
     <Files>
       <File FileName="Assets/Scripts/Player.cs" Line="60" Column="10" />
       <File FileName="Assets/Scripts/CameraFollow.cs" Line="19" Column="61" />
-      <File FileName="Assets/Scripts/Common/Weapon.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/Common/Weapon.cs" Line="89" Column="21" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
