@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{8BFB4F46-6716-BF02-7988-BEC91B95DDE3}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Features/FindComponentAndGameObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ColliderTrigger.cs">
     <Files>
       <File FileName="Assets/Scripts/Coin.cs" Line="16" Column="1" />
       <File FileName="Assets/Scripts/BallTranslater.cs" />
       <File FileName="Assets/Scripts/CameraFellow.cs" />
-      <File FileName="Assets/Scripts/ColliderTrigger.cs" />
-      <File FileName="Assets/Scripts/Features/FindComponentAndGameObject.cs" Line="36" Column="1" />
-      <File FileName="Assets/Scripts/Features/FindComponentAndGameObjectWithFatherAndSon.cs" />
+      <File FileName="Assets/Scripts/ColliderTrigger.cs" Line="14" Column="47" />
+      <File FileName="Assets/Scripts/Features/FindComponentAndGameObject.cs" Line="28" Column="34" />
+      <File FileName="Assets/Scripts/Features/FindComponentAndGameObjectWithFatherAndSon.cs" Line="22" Column="51" />
       <File FileName="Assets/Scripts/Features/GameObjectCreater.cs" Line="54" Column="6" />
     </Files>
     <Pads>
@@ -15,9 +15,8 @@
           <Node name="SimpleGeme" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Features" expanded="True">
-                  <Node name="FindComponentAndGameObject.cs" selected="True" />
-                </Node>
+                <Node name="Features" expanded="True" />
+                <Node name="ColliderTrigger.cs" selected="True" />
               </Node>
             </Node>
           </Node>
