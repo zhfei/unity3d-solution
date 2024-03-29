@@ -43,7 +43,7 @@ public class Enemy : MonoBehaviour
             if(hp <= 0)
             {
                 //播放死亡动效
-                //Instantiate(prefabBoomEffect, transform.position, transform.rotation);
+                Instantiate(prefabBoomEffect, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
         }

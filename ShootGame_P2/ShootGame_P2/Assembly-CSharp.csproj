@@ -61,6 +61,7 @@
     <Compile Include="Assets/Scripts/Common/Weapon.cs" />
     <Compile Include="Assets/Scripts/Common/Bullet.cs" />
     <Compile Include="Assets/Scripts/Enemy.cs" />
+    <Compile Include="Assets/Scripts/Common/BoomEffect.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
