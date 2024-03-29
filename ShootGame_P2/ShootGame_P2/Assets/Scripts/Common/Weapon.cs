@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//武器的作用：产生子弹，根据不同的武器类型，按照对应的策略产生子弹
 public class Weapon : MonoBehaviour
 {
 
@@ -82,12 +83,41 @@ public class Weapon : MonoBehaviour
         bullet.transform.position = transform.position + transform.forward * 1.0f;
         bullet.transform.forward = transform.forward;
     }
-    void shotgunFire()
-    {
-
-    }
     void rifleFire()
     {
+        if (lastFireTime + rifleCD > Time.time)
+        {
+            //开火间隔时间没到，不处理
+            return;
+        }
 
+        lastFireTime = Time.time;
+        GameObject bullet = Instantiate(prefabBullet, null);
+        bullet.transform.position = transform.position + transform.forward * 1.0f;
+        bullet.transform.forward = transform.forward;
+    }
+    void shotgunFire()
+    {
+        if (lastFireTime + shotgunFireCD > Time.time)
+        {
+            //开火间隔时间没到，不处理
+            return;
+        }
+
+        lastFireTime = Time.time;
+
+        //创建5颗子弹，分别相隔10度，分布于前方扇形区域
+        for (int i = -2; i <= 2; i++)
+        {
+            GameObject bullet = Instantiate(prefabBullet, null);
+            //四元数右乘：表示右侧三维坐标按四元数做旋转
+            Vector3 dir = Quaternion.Euler(0,i*10,0)*transform.forward;
+            bullet.transform.forward = dir;
+            bullet.transform.position = transform.position + dir * 1.0f;
+
+            //散弹枪射击距离比较短，需要给子弹设置生命周期
+            //Bullet b = bullet.AddComponent<Bullet>();
+            //b.lifeTime = 3.0f;
+        }
     }
 }

@@ -12,11 +12,14 @@ public class Player : MonoBehaviour
     float currentHp;//当前血量
     bool isDead = false;//是否已死
 
+    Weapon weapon;
+
 
     // Start is called before the first frame update
     void Start()
     {
         currentHp = maxHp;
+        weapon = GetComponent<Weapon>();
     }
 
     // Update is called once per frame
@@ -25,9 +28,37 @@ public class Player : MonoBehaviour
         //将键盘的横向，纵向行走量保存到变量中
         input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
+        //开火
+        bool fireKeyDown = Input.GetKeyDown(KeyCode.J);
+        bool fireKeyPressed = Input.GetKey(KeyCode.J);
+        bool changeWeapon = Input.GetKeyDown(KeyCode.Q);
+
         if (!isDead)
         {
             Move();
+
+            weapon.Fire(fireKeyDown,fireKeyPressed);
+            if(changeWeapon)
+            {
+                ChangeWeapon();
+            }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("EnemyBullet"))
+        {
+            if(currentHp <= 0)
+            {
+                return;
+            }
+            currentHp--;
+            if (currentHp <= 0)
+            {
+                isDead = true;
+            }
+            Debug.Log("掉血，剩余血量："+currentHp);
         }
     }
 
@@ -65,5 +96,28 @@ public class Player : MonoBehaviour
             tmp.x = -Border;
         }
         transform.position = tmp;
+    }
+
+    void ChangeWeapon()
+    {
+        int type = weapon.Change();
+        switch(type)
+        {
+            case 0:
+                {
+                    Debug.Log("手枪");
+                    break;
+                }
+            case 1:
+                {
+                    Debug.Log("散弹枪");
+                    break;
+                }
+            case 2:
+                {
+                    Debug.Log("步枪");
+                    break;
+                }
+        }
     }
 }
