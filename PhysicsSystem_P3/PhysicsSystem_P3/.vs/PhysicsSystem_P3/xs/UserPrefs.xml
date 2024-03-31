@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{85E1FE60-FB6C-CD02-3E8F-43B2E7BB241C}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Tumbler.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player.cs" Line="69" Column="10" />
-      <File FileName="Assets/Scripts/Tumbler.cs" Line="30" Column="80" />
+      <File FileName="Assets/Scripts/Player.cs" Line="94" Column="53" />
+      <File FileName="Assets/Scripts/Tumbler.cs" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
