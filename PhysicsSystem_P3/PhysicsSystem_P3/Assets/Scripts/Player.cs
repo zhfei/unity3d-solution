@@ -36,10 +36,12 @@ public class Player : MonoBehaviour
 
         //2.修改速度
         //相比添加力会少了加速的过程
-        if(Input.GetKeyDown(KeyCode.J))
+        if(Input.GetKey(KeyCode.J))
         {
-            Vector3 v0 = rigid.velocity;
-            rigid.velocity = v0 + new Vector3(0,0,1);
+            rigid.velocity = new Vector3(0, 0, 1);
+
+            //Vector3 v0 = rigid.velocity;
+            //rigid.velocity = v0 + new Vector3(0,0,1);
         }
 
         //3.射线检测
@@ -67,9 +69,10 @@ public class Player : MonoBehaviour
         }
 
         //4.修改角速度
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKey(KeyCode.R))
         {
-            rigid.angularVelocity = new Vector3(0,60,0);
+            rigid.angularVelocity = new Vector3(0, 60,0);
+            Debug.Log("角速度："+ rigid.angularVelocity+"角速度衰减系数："+rigid.angularDrag);
         }
     }
 
@@ -116,8 +119,12 @@ public class Player : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         input = new Vector3(h, 0, v);
-
-        transform.forward = input.normalized;
-        transform.position += input.normalized * 10 * Time.deltaTime;
+        input = input.normalized;
+        if (input.magnitude > 0.1f)
+        {
+            transform.forward = input.normalized;
+            transform.position += input.normalized * 10 * Time.deltaTime;
+        }
+        
     }
 }
