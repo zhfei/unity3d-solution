@@ -53,51 +53,51 @@
     <UnityVersion>2020.3.47f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/UI/MetaGameController.cs" />
     <Compile Include="Assets/Scripts/Mechanics/PlayAudioClip.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerLanded.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Backend/TemplateEditorDetection.cs" />
-    <Compile Include="Assets/Scripts/Core/Simulation.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/TokenInstance.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/KinematicObject.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/Jiggler.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/PlayerController.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerEnteredDeathZone.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/SpawnPoint.cs" />
-    <Compile Include="Assets/Scripts/UI/MainUIController.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerJumpPad.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/GameController.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/EmitParticlesOnLand.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/PatrolPath.Mover.cs" />
     <Compile Include="Assets/Scripts/Gameplay/PlayerTokenCollision.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerLanded.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerSpawn.cs" />
+    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/EmitParticlesOnLand.cs" />
+    <Compile Include="Assets/Scripts/UI/MainUIController.cs" />
     <Compile Include="Assets/Scripts/Mechanics/AnimationController.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerStopJump.cs" />
+    <Compile Include="Assets/Scripts/Core/Simulation.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/PatrolPath.Mover.cs" />
+    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerSpeedPad.cs" />
+    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Backend/TemplateEditorDetection.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerEnteredDeathZone.cs" />
+    <Compile Include="Assets/Scripts/Core/Simulation.Event.cs" />
     <Compile Include="Assets/Scripts/Core/Fuzzy.cs" />
+    <Compile Include="Assets/Scripts/Model/PlatformerModel.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/EnemyDeath.cs" />
+    <Compile Include="Assets/Scripts/UI/MetaGameController.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/HealthIsZero.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/SpawnPoint.cs" />
     <Compile Include="Assets/Scripts/Gameplay/PlayerEnemyCollision.cs" />
     <Compile Include="Assets/Scripts/Core/HeapQueue.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerDeath.cs" />
-    <Compile Include="Assets/Scripts/View/AnimatedTile.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/PatrolPath.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerSpawn.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerEnteredVictoryZone.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/TokenController.cs" />
     <Compile Include="Assets/Scripts/View/ParallaxLayer.cs" />
-    <Compile Include="Assets/Scripts/Model/PlatformerModel.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/DeathZone.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerSpeedPad.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/VictoryZone.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/GameController.cs" />
     <Compile Include="Assets/Scripts/Gameplay/EnablePlayerInput.cs" />
     <Compile Include="Assets/Scripts/Mechanics/Health.cs" />
-    <Compile Include="Assets/Scripts/Core/Simulation.InstanceRegister.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerJumped.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/HealthIsZero.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/EnemyDeath.cs" />
-    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/SimpleTrigger.cs" />
-    <Compile Include="Assets/Scripts/Core/Simulation.Event.cs" />
-    <Compile Include="Assets/Scripts/Gameplay/PlayerStopJump.cs" />
     <Compile Include="Assets/Scripts/Mechanics/EnemyController.cs" />
-    <Compile Include="Assets/Scripts/Mechanics/VictoryZone.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/KinematicObject.cs" />
+    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/PlatformerJumpPad.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerDeath.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/View/AnimatedTile.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/TokenInstance.cs" />
+    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/Jiggler.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/TokenController.cs" />
+    <Compile Include="Assets/Mod Assets/Mod Resources/Scripts/Platformer/SimpleTrigger.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerEnteredVictoryZone.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/DeathZone.cs" />
+    <Compile Include="Assets/Scripts/Gameplay/PlayerJumped.cs" />
+    <Compile Include="Assets/Scripts/Mechanics/PatrolPath.cs" />
+    <Compile Include="Assets/Scripts/Core/Simulation.InstanceRegister.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" />
@@ -355,8 +355,20 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.47f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
       <HintPath>Library/PackageCache/com.unity.connect.share@4.1.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.47f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -709,8 +721,8 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.47f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
       <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
@@ -721,11 +733,8 @@
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
@@ -733,56 +742,35 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Play.Publisher.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+    <Reference Include="Analytics">
+      <HintPath>Library/ScriptAssemblies/Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
@@ -796,11 +784,86 @@
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
+      <HintPath>Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.InteractiveTutorialsFramework">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Play.Publisher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InteractiveTutorials.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
@@ -811,8 +874,11 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
@@ -820,14 +886,17 @@
     <Reference Include="Unity.2D.SpriteShape.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
