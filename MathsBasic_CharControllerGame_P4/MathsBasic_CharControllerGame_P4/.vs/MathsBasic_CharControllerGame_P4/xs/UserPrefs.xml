@@ -1,18 +1,13 @@
-﻿<Properties StartupConfiguration="{21CAD60B-9FAD-F554-2670-181C73EB8358}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Coordinate.cs">
+﻿<Properties StartupConfiguration="{522ECDF3-8373-96EF-F008-1A2909624007}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FPSCharacter.cs">
     <Files>
-      <File FileName="Assets/Scripts/Coordinate.cs" Line="31" Column="18" />
-      <File FileName="Assets/Scripts/Rotation.cs" Line="18" Column="31" />
+      <File FileName="Assets/Scripts/FPSCharacter.cs" Line="22" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MathsBasic_P4" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Coordinate.cs" selected="True" />
-              </Node>
-            </Node>
+          <Node name="MathsBasic_CharControllerGame_P4" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>
