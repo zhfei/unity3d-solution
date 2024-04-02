@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{21CAD60B-9FAD-F554-2670-181C73EB8358}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rotation.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Coordinate.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/Rotation.cs" Line="21" Column="17" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MathsBasic_P4" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Rotation.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="434cc4db-af65-45a1-952b-b0c4df4a677f" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
