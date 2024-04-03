@@ -7,7 +7,9 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MathsBasic_CharControllerGame_P4" expanded="True">
-            <Node name="Assets" expanded="True" selected="True" />
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -15,7 +17,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="434cc4db-af65-45a1-952b-b0c4df4a677f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4aea388d-79f9-46b8-bbfe-7db17d52a277" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
