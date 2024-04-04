@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{F33A5E88-355A-60C2-C6E1-3B85CDA1CCBB}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SliderTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RuntimeAddEventTriggerHandlerTest.cs">
     <Files>
-      <File FileName="Assets/Scripts/ButtonTest.cs" Line="27" Column="6" />
-      <File FileName="Assets/Scripts/ToggleTest.cs" Line="31" Column="36" />
+      <File FileName="Assets/Scripts/ButtonTest.cs" Line="35" Column="1" />
+      <File FileName="Assets/Scripts/ToggleTest.cs" />
       <File FileName="Assets/Scripts/SliderTest.cs" Line="21" Column="29" />
+      <File FileName="Assets/Scripts/SupportedEventsTest.cs" Line="7" Column="14" />
+      <File FileName="Assets/Scripts/RuntimeAddEventHandlerTest.cs" Line="33" Column="1" />
+      <File FileName="Assets/Scripts/RuntimeAddEventTriggerHandlerTest.cs" Line="43" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +14,7 @@
           <Node name="UIAndScripts_P5" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="SliderTest.cs" selected="True" />
+                <Node name="RuntimeAddEventTriggerHandlerTest.cs" selected="True" />
               </Node>
             </Node>
           </Node>

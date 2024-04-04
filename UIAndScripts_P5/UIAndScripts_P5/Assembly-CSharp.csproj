@@ -56,9 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/SliderTest.cs" />
     <Compile Include="Assets/Scripts/ButtonTest.cs" />
     <Compile Include="Assets/Scripts/ToggleTest.cs" />
-    <Compile Include="Assets/Scripts/SliderTest.cs" />
+    <Compile Include="Assets/Scripts/SupportedEventsTest.cs" />
+    <Compile Include="Assets/Scripts/RuntimeAddEventHandlerTest.cs" />
+    <Compile Include="Assets/Scripts/RuntimeAddEventTriggerHandlerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

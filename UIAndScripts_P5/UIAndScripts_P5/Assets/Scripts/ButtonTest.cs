@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 
 /// <summary>
@@ -24,5 +25,10 @@ public class ButtonTest : MonoBehaviour
     public void BtnClick(int index)
     {
         Debug.Log("按钮被点击了："+index);
+    }
+
+    public void BtnCustomEvent(BaseEventData param)
+    {
+        Debug.Log("自定义点击事件：" + param);
     }
 }
