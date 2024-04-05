@@ -1588,7 +1588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4695988192755386438, guid: 4b489fb38dae24be2a0f535caef63386, type: 3}
       propertyPath: m_FillAmount
-      value: 0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4695988192755386438, guid: 4b489fb38dae24be2a0f535caef63386, type: 3}
       propertyPath: m_FillMethod
@@ -1608,7 +1608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4695988193437253140, guid: 4b489fb38dae24be2a0f535caef63386, type: 3}
       propertyPath: m_Value
-      value: 0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4695988193728889361, guid: 4b489fb38dae24be2a0f535caef63386, type: 3}
       propertyPath: m_IsActive
