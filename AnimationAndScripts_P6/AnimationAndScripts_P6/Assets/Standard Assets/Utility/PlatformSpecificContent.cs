@@ -117,7 +117,7 @@ namespace UnityStandardAssets.Utility
             {
                 foreach (var monoBehaviour in m_MonoBehaviours)
                 {
-                    monoBehaviour.enabled = enabled;
+                    //monoBehaviour.enabled = enabled;
                 }
             }
         }

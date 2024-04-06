@@ -90,7 +90,8 @@ namespace UnityStandardAssets._2D
                 }
             }
             // If the player should jump...
-            if (m_Grounded && jump && m_Anim.GetBool("Ground"))
+            //if (m_Grounded && jump && m_Anim.GetBool("Ground")) 删除反向依赖项 m_Anim.GetBool("Ground")
+            if (m_Grounded && jump)
             {
                 // Add a vertical force to the player.
                 m_Grounded = false;

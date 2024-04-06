@@ -1,27 +1,22 @@
-﻿<Properties StartupConfiguration="{AA3640F1-528B-41B4-7A49-7E8D85C13D93}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs">
+﻿<Properties StartupConfiguration="{AA22150F-E405-2F79-1E0E-52C8CEF684DA}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/PlatformSpecificContent.cs">
     <Files>
       <File FileName="Assets/Standard Assets/Utility/ForcedReset.cs" Line="6" Column="1" />
-      <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" Line="10" Column="1" />
+      <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" Line="40" Column="1" />
+      <File FileName="Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" Line="96" Column="55" />
+      <File FileName="Assets/Standard Assets/Utility/PlatformSpecificContent.cs" Line="120" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AnimationAndScripts_P6" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Standard Assets" expanded="True">
-                <Node name="Utility" expanded="True">
-                  <Node name="SimpleActivatorMenu.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="AnimationAndScripts_P6" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="434cc4db-af65-45a1-952b-b0c4df4a677f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
