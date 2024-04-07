@@ -71,5 +71,10 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             m_Character.Move(m_Move, crouch, m_Jump);
             m_Jump = false;
         }
+
+        void MyFall()
+        {
+            Debug.Log("帧事件触发了。。。");
+        }
     }
 }

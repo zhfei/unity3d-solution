@@ -198,8 +198,14 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			}
 		}
 
+   //     public void OnAnimatorIK(int layerIndex)
+   //     {
+			//m_Animator.SetLookAtWeight(1);
+			//m_Animator.SetLookAtPosition(new Vector3(0,0,0));
+   //     }
 
-		void CheckGroundStatus()
+
+        void CheckGroundStatus()
 		{
 			RaycastHit hitInfo;
 #if UNITY_EDITOR

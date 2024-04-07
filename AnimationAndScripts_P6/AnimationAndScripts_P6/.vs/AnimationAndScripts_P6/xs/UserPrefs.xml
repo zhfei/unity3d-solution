@@ -1,22 +1,37 @@
 ﻿<Properties StartupConfiguration="{AA22150F-E405-2F79-1E0E-52C8CEF684DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/PlatformSpecificContent.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs">
     <Files>
       <File FileName="Assets/Standard Assets/Utility/ForcedReset.cs" Line="6" Column="1" />
-      <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" Line="40" Column="1" />
-      <File FileName="Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" Line="96" Column="55" />
-      <File FileName="Assets/Standard Assets/Utility/PlatformSpecificContent.cs" Line="120" Column="1" />
+      <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
+      <File FileName="Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" />
+      <File FileName="Assets/Standard Assets/Utility/PlatformSpecificContent.cs" Line="121" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" Line="201" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" Line="74" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="AnimationAndScripts_P6" expanded="True" selected="True" />
+          <Node name="AnimationAndScripts_P6" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Standard Assets" expanded="True">
+                <Node name="Characters" expanded="True">
+                  <Node name="ThirdPersonCharacter" expanded="True">
+                    <Node name="Scripts" expanded="True">
+                      <Node name="ThirdPersonUserControl.cs" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Utility" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="434cc4db-af65-45a1-952b-b0c4df4a677f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d4c08c2a-4b2b-4d14-9c20-3f0be8ff2099" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
