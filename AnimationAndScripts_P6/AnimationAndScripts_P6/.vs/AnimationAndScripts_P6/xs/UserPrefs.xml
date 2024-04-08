@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{AA22150F-E405-2F79-1E0E-52C8CEF684DA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs">
     <Files>
       <File FileName="Assets/Standard Assets/Utility/ForcedReset.cs" Line="6" Column="1" />
       <File FileName="Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
       <File FileName="Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" />
       <File FileName="Assets/Standard Assets/Utility/PlatformSpecificContent.cs" Line="121" Column="1" />
-      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" Line="201" Column="1" />
-      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" Line="74" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" Line="197" Column="30" />
+      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" Line="77" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,7 @@
                 <Node name="Characters" expanded="True">
                   <Node name="ThirdPersonCharacter" expanded="True">
                     <Node name="Scripts" expanded="True">
-                      <Node name="ThirdPersonUserControl.cs" selected="True" />
+                      <Node name="ThirdPersonCharacter.cs" selected="True" />
                     </Node>
                   </Node>
                 </Node>
