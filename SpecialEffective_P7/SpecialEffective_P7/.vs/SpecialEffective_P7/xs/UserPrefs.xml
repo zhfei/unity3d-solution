@@ -4,7 +4,7 @@
       <File FileName="Assets/Scripts/CreateParticle.cs" Line="43" Column="40" />
       <File FileName="Assets/Scripts/TestTween.cs" Line="17" Column="6" />
       <File FileName="Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
-      <File FileName="Assets/Scripts/TestTrail.cs" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/TestTrail.cs" Line="26" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
           <Node name="SpecialEffective_P7" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CreateParticle.cs" selected="True" />
+                <Node name="TestTrail.cs" selected="True" />
               </Node>
             </Node>
           </Node>
