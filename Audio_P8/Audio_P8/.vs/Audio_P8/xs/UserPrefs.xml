@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{54C2F559-2913-BCCD-2F11-B0E007F6C501}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TestAudio.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TestAudio.cs" Line="38" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Audio_P8" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d4c08c2a-4b2b-4d14-9c20-3f0be8ff2099" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
