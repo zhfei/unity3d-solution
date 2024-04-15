@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{B4DC6875-7AAF-953D-A44A-3F3E65838E66}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AssetBundleManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/AssetBundleManager.cs" Line="10" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AssetBundle_P9" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="743d2049-e1cc-41f9-b686-44c22ffe433c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
