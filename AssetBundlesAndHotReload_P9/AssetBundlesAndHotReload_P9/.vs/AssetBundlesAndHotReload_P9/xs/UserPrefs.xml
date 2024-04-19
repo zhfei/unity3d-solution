@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{5D3D5AC0-A06B-A3D4-15F1-7D7FFCAD5932}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/03_Delegate/DelegateDemo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Addressable/Scripts/AALoad.cs">
     <Files>
-      <File FileName="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/03_Delegate/DelegateDemo.cs" Line="15" Column="1" />
+      <File FileName="Assets/Addressable/Scripts/AALoad.cs" Line="10" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AssetBundlesAndHotReload_P9" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Editor" expanded="True" />
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Addressable" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
               <Node name="Samples" expanded="True">
                 <Node name="ILRuntime" expanded="True">
                   <Node name="2.1.0" expanded="True">
@@ -16,9 +18,7 @@
                       <Node name="Scripts" expanded="True">
                         <Node name="Examples" expanded="True">
                           <Node name="01_HelloWorld" expanded="True" />
-                          <Node name="03_Delegate" expanded="True">
-                            <Node name="DelegateDemo.cs" selected="True" />
-                          </Node>
+                          <Node name="03_Delegate" expanded="True" />
                         </Node>
                       </Node>
                     </Node>
@@ -34,7 +34,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cc390b8e-b355-4d60-a96e-259bc7a210f2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e383934b-4f78-41c6-b95c-d53a10b9bdd0" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
