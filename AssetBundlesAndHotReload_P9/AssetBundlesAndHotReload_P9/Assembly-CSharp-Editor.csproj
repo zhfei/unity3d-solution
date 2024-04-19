@@ -54,13 +54,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="/Users/admin/Documents/Unity/unity3d-solution/AssetBundlesAndHotReload_P9/AssetBundlesAndHotReload_P9/Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Editor/BuildAssetBundle.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Editor/ILRuntimeCLRBinding.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/08_MonoBehaviour/Editor/MonoBehaviourAdapterEditor.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Editor/ILRuntimeCrossBinding.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/08_MonoBehaviour/Editor/MonoBehaviourAdapterEditor.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Editor/ILRuntimeCLRBinding.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Editor/ILRuntimeMenu.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -322,17 +321,17 @@
     <Reference Include="unityplastic">
       <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
       <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="ILRuntime.Mono.Cecil">
       <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library/PackageCache/com.unity.collab-proxy@2.0.1/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+      <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -715,6 +714,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="ILRuntime">
+      <HintPath>Library/ScriptAssemblies/ILRuntime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -729,9 +731,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime">
-      <HintPath>Library/ScriptAssemblies/ILRuntime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -54,37 +54,135 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="/Users/admin/Documents/Unity/unity3d-solution/AssetBundlesAndHotReload_P9/AssetBundlesAndHotReload_P9/Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/TestLoadAB.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/07_Coroutine/CoroutineDemo.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonWriter.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/04_Inheritance/Inheritance.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonException.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/09_Reflection/ReflectionDemo.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/01_HelloWorld/HelloWorld.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/ValueTypeBindingDemo.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/08_MonoBehaviour/MonoBehaviourDemo.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/IJsonWrapper.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonData.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/07_Coroutine/CoroutineAdapter.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/10_LitJson/LitJsonDemo.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/Vector3Binder.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/QuaternionBinder.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/04_Inheritance/InheritanceAdapter.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/08_MonoBehaviour/MonoBehaviourAdapter.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonMockWrapper.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/12_Performance/Performance.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonMapper.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/01_HelloWorld/HelloWorld.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/QuaternionBinder.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/08_MonoBehaviour/MonoBehaviourDemo.cs" />
+    <Compile Include="Assets/Scripts/TestLoadAB.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/07_Coroutine/CoroutineAdapter.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/03_Delegate/DelegateDemo.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/02_Invocation/Invocation.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonException.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/05_CLRRedirection/CLRRedirectionDemo.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/04_Inheritance/Inheritance.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonData.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/07_Coroutine/CoroutineDemo.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/Lexer.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/Vector2Binder.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/02_Invocation/Invocation.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/06_CLRBinding/CLRBindingDemo.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/Vector3Binder.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonMockWrapper.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/10_LitJson/LitJsonDemo.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/ParserToken.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/05_CLRRedirection/CLRRedirectionDemo.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonWriter.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/ValueTypeBindingDemo.cs" />
+    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/IJsonWrapper.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonReader.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/03_Delegate/DelegateDemo.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/04_Inheritance/InheritanceAdapter.cs" />
-    <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/12_Performance/Performance.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/StreamingAssets/System.IO.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.Principal.dll" />
+    <None Include="Assets/StreamingAssets/System.Threading.ThreadPool.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.Serialization.Formatters.dll" />
+    <None Include="Assets/StreamingAssets/System.Linq.dll" />
+    <None Include="Assets/StreamingAssets/System.Xml.XmlDocument.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.Compression.dll" />
+    <None Include="Assets/StreamingAssets/System.Collections.Specialized.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.IsolatedStorage.dll" />
+    <None Include="Assets/StreamingAssets/System.Threading.Thread.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.SecureString.dll" />
+    <None Include="Assets/StreamingAssets/System.Resources.Reader.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.Ping.dll" />
+    <None Include="Assets/StreamingAssets/System.Xml.XmlSerializer.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.FileVersionInfo.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.Handles.dll" />
+    <None Include="Assets/StreamingAssets/System.AppContext.dll" />
+    <None Include="Assets/StreamingAssets/System.Reflection.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.Serialization.Xml.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.Extensions.dll" />
+    <None Include="Assets/StreamingAssets/System.ComponentModel.EventBasedAsync.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.WebSockets.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.MemoryMappedFiles.dll" />
+    <None Include="Assets/StreamingAssets/System.Drawing.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.Requests.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.Serialization.Json.dll" />
+    <None Include="Assets/StreamingAssets/System.Resources.ResourceManager.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.Security.dll" />
+    <None Include="Assets/StreamingAssets/System.Xml.ReaderWriter.dll" />
+    <None Include="Assets/StreamingAssets/System.Dynamic.Runtime.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.Cryptography.Algorithms.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.Pipes.dll" />
+    <None Include="Assets/StreamingAssets/System.Xml.XPath.XDocument.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.Contracts.dll" />
+    <None Include="Assets/StreamingAssets/System.Linq.Expressions.dll" />
+    <None Include="Assets/StreamingAssets/System.Linq.Queryable.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.NetworkInformation.dll" />
+    <None Include="Assets/StreamingAssets/System.Globalization.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.FileSystem.Watcher.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.TextWriterTraceListener.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.FileSystem.DriveInfo.dll" />
+    <None Include="Assets/StreamingAssets/System.Text.Encoding.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.WebSockets.Client.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.Claims.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.Cryptography.Csp.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.Http.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.NameResolution.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.Cryptography.Encoding.dll" />
+    <None Include="Assets/StreamingAssets/System.Threading.Overlapped.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.FileSystem.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <None Include="Assets/StreamingAssets/System.Console.dll" />
+    <None Include="Assets/StreamingAssets/System.Globalization.Extensions.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.Tools.dll" />
+    <None Include="Assets/StreamingAssets/System.Threading.Timer.dll" />
+    <None Include="Assets/StreamingAssets/System.ObjectModel.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.TraceSource.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.Sockets.dll" />
+    <None Include="Assets/StreamingAssets/System.Reflection.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.Compression.ZipFile.dll" />
+    <None Include="Assets/StreamingAssets/System.Resources.Writer.dll" />
+    <None Include="Assets/StreamingAssets/System.ComponentModel.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.Cryptography.X509Certificates.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.FileSystem.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.ComponentModel.dll" />
+    <None Include="Assets/StreamingAssets/System.ValueTuple.dll" />
+    <None Include="Assets/StreamingAssets/netstandard.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.InteropServices.dll" />
+    <None Include="Assets/StreamingAssets/System.Collections.Concurrent.dll" />
+    <None Include="Assets/StreamingAssets/System.Xml.XDocument.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.Debug.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.Tracing.dll" />
+    <None Include="Assets/StreamingAssets/System.Text.Encoding.Extensions.dll" />
+    <None Include="Assets/StreamingAssets/System.Reflection.Extensions.dll" />
+    <None Include="Assets/StreamingAssets/System.Collections.NonGeneric.dll" />
+    <None Include="Assets/StreamingAssets/Microsoft.Win32.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.StackTrace.dll" />
+    <None Include="Assets/StreamingAssets/System.Data.Common.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.CompilerServices.VisualC.dll" />
+    <None Include="Assets/StreamingAssets/System.ComponentModel.TypeConverter.dll" />
+    <None Include="Assets/StreamingAssets/System.Globalization.Calendars.dll" />
+    <None Include="Assets/StreamingAssets/System.Threading.Tasks.Parallel.dll" />
+    <None Include="Assets/StreamingAssets/System.Linq.Parallel.dll" />
+    <None Include="Assets/StreamingAssets/System.Threading.Tasks.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.Serialization.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.Collections.dll" />
+    <None Include="Assets/StreamingAssets/System.IO.UnmanagedMemoryStream.dll" />
+    <None Include="Assets/StreamingAssets/System.Xml.XPath.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.dll" />
+    <None Include="Assets/StreamingAssets/HotFix_Project.dll" />
+    <None Include="Assets/StreamingAssets/System.Net.WebHeaderCollection.dll" />
+    <None Include="Assets/StreamingAssets/System.Security.Cryptography.Primitives.dll" />
+    <None Include="Assets/StreamingAssets/System.Threading.dll" />
+    <None Include="Assets/StreamingAssets/System.Diagnostics.Process.dll" />
+    <None Include="Assets/StreamingAssets/System.Text.RegularExpressions.dll" />
+    <None Include="Assets/StreamingAssets/System.Runtime.Numerics.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -324,11 +422,11 @@
     <Reference Include="ILRuntime.Mono.Cecil.Mdb">
       <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
-    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
-      <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
-    </Reference>
     <Reference Include="ILRuntime.Mono.Cecil">
       <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+      <HintPath>Library/PackageCache/com.ourpalm.ilruntime@2.1.0/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.47f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -699,6 +797,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="ILRuntime">
+      <HintPath>Library/ScriptAssemblies/ILRuntime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -713,9 +814,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="ILRuntime">
-      <HintPath>Library/ScriptAssemblies/ILRuntime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
