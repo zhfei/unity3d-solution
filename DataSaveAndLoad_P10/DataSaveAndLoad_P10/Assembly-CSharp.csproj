@@ -53,46 +53,47 @@
     <UnityVersion>2020.3.47f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/DataTool.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/Scripts/LitJSONTest.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/Scripts/PrefTest.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
+    <Compile Include="Assets/Scripts/DataTool.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
-    <Compile Include="Assets/Scripts/PrefTest.cs" />
-    <Compile Include="Assets/Scripts/LitJSONTest.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/Scripts/LoadJson.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -355,8 +356,20 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.47f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="LitJSON">
       <HintPath>Assets/Plugins/LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.47f1c1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -709,8 +722,17 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.47f1c1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -718,14 +740,20 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -736,8 +764,56 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Analytics">
+      <HintPath>Library/ScriptAssemblies/Analytics.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Monetization">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

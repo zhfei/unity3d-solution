@@ -1,0 +1,26 @@
+{
+    "1": {
+        "id": 1,
+        "name": "红药水 ",
+        "type": 1,
+        "attack": 0,
+        "defence": 0,
+        "data": 100.0
+    },
+    "2": {
+        "id": 2,
+        "name": "蓝药水 ",
+        "type": 2,
+        "attack": 0,
+        "defence": 0,
+        "data": 100.0
+    },
+    "1000": {
+        "id": 1000,
+        "name": "铜剑 ",
+        "type": 10,
+        "attack": 50.0,
+        "defence": 0,
+        "data": 0
+    }
+}
