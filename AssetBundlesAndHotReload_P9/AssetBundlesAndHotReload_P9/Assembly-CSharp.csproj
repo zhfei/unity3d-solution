@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/09_Reflection/ReflectionDemo.cs" />
+    <Compile Include="Assets/Addressable/Scripts/AALoad.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/04_Inheritance/InheritanceAdapter.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/08_MonoBehaviour/MonoBehaviourAdapter.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/12_Performance/Performance.cs" />
@@ -84,7 +85,7 @@
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/Scripts/Examples/11_ValueTypeBinding/ValueTypeBindingDemo.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/IJsonWrapper.cs" />
     <Compile Include="Assets/Samples/ILRuntime/2.1.0/Demo/LitJson/JsonReader.cs" />
-    <Compile Include="Assets/Addressable/Scripts/AALoad.cs" />
+    <Compile Include="Assets/DLL/Scripts/LoadDLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/StreamingAssets/System.IO.dll" />

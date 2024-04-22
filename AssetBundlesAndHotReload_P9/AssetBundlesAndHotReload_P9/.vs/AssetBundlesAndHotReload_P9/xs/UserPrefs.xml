@@ -1,7 +1,9 @@
 ﻿<Properties StartupConfiguration="{5D3D5AC0-A06B-A3D4-15F1-7D7FFCAD5932}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Addressable/Scripts/AALoad.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TestLoadAB.cs">
     <Files>
       <File FileName="Assets/Addressable/Scripts/AALoad.cs" Line="1" Column="1" />
+      <File FileName="Assets/DLL/Scripts/LoadDLL.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/TestLoadAB.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,25 +11,14 @@
           <Node name="AssetBundlesAndHotReload_P9" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Addressable" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="AALoad.cs" selected="True" />
-                </Node>
+                <Node name="Scripts" expanded="True" />
               </Node>
-              <Node name="Samples" expanded="True">
-                <Node name="ILRuntime" expanded="True">
-                  <Node name="2.1.0" expanded="True">
-                    <Node name="Demo" expanded="True">
-                      <Node name="Scripts" expanded="True">
-                        <Node name="Examples" expanded="True">
-                          <Node name="01_HelloWorld" expanded="True" />
-                          <Node name="03_Delegate" expanded="True" />
-                        </Node>
-                      </Node>
-                    </Node>
-                  </Node>
-                </Node>
+              <Node name="DLL" expanded="True">
+                <Node name="Scripts" expanded="True" />
               </Node>
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="TestLoadAB.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -36,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e383934b-4f78-41c6-b95c-d53a10b9bdd0" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="635e36a5-f0cf-4f3e-ab2b-ed4f619b8afb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
