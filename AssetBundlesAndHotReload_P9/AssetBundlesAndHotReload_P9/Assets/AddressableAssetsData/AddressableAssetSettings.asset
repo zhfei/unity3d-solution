@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DefaultGroup: 322cfcebbd08840e495505189e788884
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -59,7 +59,7 @@ MonoBehaviour:
       - m_Id: 5de8a0d2a43904d648f0b4598bdcecbd
         m_Value: ServerData/[BuildTarget]
       - m_Id: f78c9c9d0b3ca4a31be2e45ebfc11fb2
-        m_Value: http://localhost/[BuildTarget]
+        m_Value: http://121.199.5.39/res/addressables/[BuildTarget]
     m_ProfileEntryNames:
     - m_Id: 1d834dc38e39544d09313d7f39e8b29e
       m_Name: BuildTarget
