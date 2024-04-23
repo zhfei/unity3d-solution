@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{CF3B27EC-5B4E-57A6-9EAC-BCB33E3B8E16}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SaveJson.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BinarySerializableTest.cs">
     <Files>
       <File FileName="Assets/Scripts/LitJSONTest.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/LoadJson.cs" />
-      <File FileName="Assets/Scripts/SaveJson.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/LoadJson.cs" Line="39" Column="1" />
+      <File FileName="Assets/Scripts/SaveJson.cs" Line="25" Column="6" />
+      <File FileName="Assets/Scripts/BinarySerializableTest.cs" Line="30" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DataSaveAndLoad_P10" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="BinarySerializableTest.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
