@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{E1AB084F-5D89-7869-EC3A-EB7197921C1D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MoveTo.cs">
+    <Files>
+      <File FileName="Assets/MoveTo.cs" Line="31" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GameAI_P11" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="MoveTo.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a55a6c0b-038e-4b58-a179-e31a7f85cba4" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
