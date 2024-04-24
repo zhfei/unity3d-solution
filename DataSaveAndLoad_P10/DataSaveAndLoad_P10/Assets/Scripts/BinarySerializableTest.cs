@@ -26,6 +26,9 @@ public class BinarySerializableTest : MonoBehaviour
 
     public PlayerData2 testPD;
 
+    [SerializeField]
+    private string name;
+
     // Start is called before the first frame update
     void Start()
     {
