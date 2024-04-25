@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{E1AB084F-5D89-7869-EC3A-EB7197921C1D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveToAnim.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyAIView.cs">
     <Files>
       <File FileName="Assets/Scripts/MoveToAnim.cs" Line="55" Column="48" />
+      <File FileName="Assets/Scripts/EnemyAIView.cs" Line="10" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +18,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2cb52460-067a-4625-8bc8-b1cc5c91d0f7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a337fb91-a1ca-4a75-8922-f273270ede5e" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

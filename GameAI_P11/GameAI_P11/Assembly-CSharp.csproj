@@ -56,18 +56,19 @@
     <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/MoveTo.cs" />
     <Compile Include="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/SlowMoButton.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/LevelReset.cs" />
+    <Compile Include="Assets/Scripts/MoveToAnim.cs" />
+    <Compile Include="Assets/Scripts/MoveTo.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/CameraSwitch.cs" />
     <Compile Include="Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
     <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/SlowMoButton.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/LevelReset.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" />
-    <Compile Include="Assets/SampleScenes/Scripts/CameraSwitch.cs" />
     <Compile Include="Assets/SampleScenes/Menu/Scripts/ReturnToMainMenu.cs" />
     <Compile Include="Assets/SampleScenes/Menu/Scripts/EventSystemChecker.cs" />
-    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
-    <Compile Include="Assets/Scripts/MoveToAnim.cs" />
+    <Compile Include="Assets/Scripts/EnemyAIView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SampleScenes/Shaders/Skybox-Procedural.shader" />
