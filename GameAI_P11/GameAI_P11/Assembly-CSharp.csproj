@@ -69,6 +69,7 @@
     <Compile Include="Assets/SampleScenes/Menu/Scripts/ReturnToMainMenu.cs" />
     <Compile Include="Assets/SampleScenes/Menu/Scripts/EventSystemChecker.cs" />
     <Compile Include="Assets/Scripts/EnemyAIView.cs" />
+    <Compile Include="Assets/Scripts/EnemyAIViewState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SampleScenes/Shaders/Skybox-Procedural.shader" />

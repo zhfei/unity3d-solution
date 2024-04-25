@@ -1,24 +1,30 @@
 ﻿<Properties StartupConfiguration="{E1AB084F-5D89-7869-EC3A-EB7197921C1D}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyAIView.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyAIViewState.cs">
     <Files>
       <File FileName="Assets/Scripts/MoveToAnim.cs" Line="55" Column="48" />
-      <File FileName="Assets/Scripts/EnemyAIView.cs" Line="10" Column="23" />
+      <File FileName="Assets/Scripts/EnemyAIView.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/EnemyAIViewState.cs" Line="11" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GameAI_P11" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EnemyAIViewState.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a337fb91-a1ca-4a75-8922-f273270ede5e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4a102e83-6935-4163-9cb3-0d74e793f936" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
