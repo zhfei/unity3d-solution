@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{33BC7429-7763-A986-43F0-99328AFF6BEE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerCharacter.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraFellow.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerInput.cs" Line="31" Column="38" />
-      <File FileName="Assets/Scripts/PlayerCharacter.cs" Line="65" Column="49" />
+      <File FileName="Assets/Scripts/PlayerInput.cs" Line="32" Column="10" />
+      <File FileName="Assets/Scripts/PlayerCharacter.cs" />
+      <File FileName="Assets/Scripts/CameraFellow.cs" Line="21" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="DeathSquad_P12" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerInput.cs" selected="True" />
+                <Node name="CameraFellow.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6a03bd0b-8d97-40b3-8c8d-1b6192f52880" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="85cff0dd-93d9-45ee-b349-876892b09237" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/admin/Documents/Unity/unity3d-solution/DeathSquad_P12/DeathSquad_P12/Assets/Scripts/PlayerCharacter.cs" relfile="Assets/Scripts/PlayerCharacter.cs" line="76" column="1" />
