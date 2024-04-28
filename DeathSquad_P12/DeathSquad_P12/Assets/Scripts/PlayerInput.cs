@@ -55,4 +55,44 @@ public class PlayerInput : MonoBehaviour
         curGroundPoint = hit.point;
         return true;
     }
+
+    public void OnSelectItem(string item)
+    {
+        if (player.dead) return;
+        player.curItem = item;
+        Debug.Log(item);
+
+        switch(item)
+        {
+            case "handgun":
+                {
+                    //手枪
+                }
+                break;
+            case "cigar":
+                {
+                    //投掷物
+                }
+                break;
+            case "trap":
+                {
+                    //陷阱
+                }
+                break;
+            case "knife":
+                {
+                    //匕首
+                }
+                break;
+            case "colse":
+                {
+                    //关闭
+                    GameObject canvas = GameObject.Find("Canvas");
+                    canvas.SetActive(false); 
+                }
+                break;
+        }
+    }
+
+    
 }
