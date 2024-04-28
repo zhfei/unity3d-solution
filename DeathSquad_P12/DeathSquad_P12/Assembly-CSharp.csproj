@@ -59,6 +59,9 @@
     <Compile Include="Assets/Scripts/PlayerCharacter.cs" />
     <Compile Include="Assets/Scripts/PlayerInput.cs" />
     <Compile Include="Assets/Scripts/CameraFellow.cs" />
+    <Compile Include="Assets/Scripts/Bullet.cs" />
+    <Compile Include="Assets/Scripts/EnemyCharacter.cs" />
+    <Compile Include="Assets/Scripts/Throwing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SimpleMilitary/Materials/UnlitVertexColour_Alpha.shader" />

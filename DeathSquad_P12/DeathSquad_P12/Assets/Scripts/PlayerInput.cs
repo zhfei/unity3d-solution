@@ -39,6 +39,16 @@ public class PlayerInput : MonoBehaviour
         player.UpdateMove(); //2.移动
         player.UpdateAction(curGroundPoint,fire); //3.开火
         player.UpdateAnim(curGroundPoint); //4.动画
+
+        //抛物线指示器，只有在投掷物时才需要划曲线
+        if(player.curItem == "cigar")
+        {
+            DrawThrowLine(curGroundPoint);
+        }
+        else
+        {
+            HideThrowLine();
+        }
     }
 
     //记录鼠标指针当前指向的点
@@ -77,6 +87,7 @@ public class PlayerInput : MonoBehaviour
             case "trap":
                 {
                     //陷阱
+                    player.BeginTrap();
                 }
                 break;
             case "knife":
@@ -94,5 +105,44 @@ public class PlayerInput : MonoBehaviour
         }
     }
 
-    
+
+    //抛物线指示器
+    void HideThrowLine()
+    {
+        throwLine.positionCount = 0;
+    }
+
+    public void DrawThrowLine(Vector3 _target)
+    {
+        //显示抛物线
+        Vector3 target = transform.InverseTransformVector(_target);
+        float d = target.magnitude;
+        float h = d / 3;
+
+        //用20条直线模拟曲线，算法和抛物线飞行类似
+        int T = 20;
+        float T_half = T / 2.0f;
+        float a = 2 * h / (T_half * T_half);
+        float vx = target.x / T;
+        float vz = target.z / T;
+
+        List<Vector3> points = new List<Vector3>();
+        //列表保存的点都是局部坐标系的点
+        points.Add(Vector3.zero);
+
+        Vector3 p = Vector3.zero;
+        float vy = T_half * a;
+        for(int i = 0; i<T;i++)
+        {
+            p.x += vx;
+            p.z += vz;
+            p.y += vy - a / 2.0f;
+            vy -= a;
+            points.Add(p);
+        }
+
+        //将points列表赋值给Line Render组件，就会显示曲线了
+        throwLine.positionCount = points.Count;
+        throwLine.SetPositions(points.ToArray());
+    }
 }
