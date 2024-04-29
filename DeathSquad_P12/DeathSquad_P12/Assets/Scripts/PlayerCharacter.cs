@@ -13,7 +13,7 @@ public class PlayerCharacter : MonoBehaviour
     [HideInInspector]
     public bool dead = false;
 
-    //引用其他组件
+    //引用组件
     CharacterController cc;
     PlayerInput playerInput;
     Animator animator;
@@ -126,7 +126,7 @@ public class PlayerCharacter : MonoBehaviour
                     }
                 }
                 break;
-            case "cigar"://诱饵
+            case "cigar"://投掷物
                 {
                     throwTarget = curInputPos;
                     if(fire)

@@ -56,12 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio (2019).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Throwing.cs" />
     <Compile Include="Assets/Scripts/PlayerCharacter.cs" />
+    <Compile Include="Assets/Scripts/EnemyCharacter.cs" />
+    <Compile Include="Assets/Scripts/Bullet.cs" />
     <Compile Include="Assets/Scripts/PlayerInput.cs" />
     <Compile Include="Assets/Scripts/CameraFellow.cs" />
-    <Compile Include="Assets/Scripts/Bullet.cs" />
-    <Compile Include="Assets/Scripts/EnemyCharacter.cs" />
-    <Compile Include="Assets/Scripts/Throwing.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/SimpleMilitary/Materials/UnlitVertexColour_Alpha.shader" />
@@ -672,6 +672,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -683,9 +686,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

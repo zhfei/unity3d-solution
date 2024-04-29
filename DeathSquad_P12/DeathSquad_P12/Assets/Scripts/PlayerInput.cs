@@ -33,7 +33,9 @@ public class PlayerInput : MonoBehaviour
         //1.传递标准输入到角色控制器
         player.curInput = input;
 
-        bool fire = false;
+        
+
+        bool fire = Input.GetMouseButtonDown(0);
         bool touch = TouchGroundPos(); //保存鼠标指向陆地的点
 
         player.UpdateMove(); //2.移动
