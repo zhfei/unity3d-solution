@@ -156,10 +156,10 @@ public class EnemyCharacter : MonoBehaviour
     void UpdatePatrol()
     {
         if (patrolPoints.Count == 0) return;
-
+        
         if(agent.isStopped)
         {
-            agent.SetDestination(patrolPoints[patrolIndex].position);
+            agent.destination = patrolPoints[patrolIndex].position;
             agent.isStopped = false;
             return;
         }
