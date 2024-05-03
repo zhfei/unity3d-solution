@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{0B4FA452-C656-5D17-6099-E858611D1CE2}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Pool/Spawner.cs">
+    <Files>
+      <File FileName="Assets/Pool/SimplePool.cs" Line="18" Column="1" />
+      <File FileName="Assets/Pool/Bullet.cs" Line="28" Column="42" />
+      <File FileName="Assets/Pool/Spawner.cs" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UnityAdvancedProgramming_P13" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Pool" expanded="True">
+                <Node name="Spawner.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="70318dad-2260-48d7-b675-d5356f450e68" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
