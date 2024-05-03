@@ -4,11 +4,11 @@
     <Files>
       <File FileName="demo0/Program.cs" Line="30" Column="1" />
       <File FileName="Day02/Program.cs" />
-      <File FileName="Day07/Program.cs" Line="17" Column="10" />
-      <File FileName="Day08/Program.cs" Line="24" Column="14" />
-      <File FileName="Day08/Person.cs" Line="83" Column="1" />
-      <File FileName="Day08/Student.cs" Line="19" Column="6" />
-      <File FileName="Day08/StaticClass.cs" Line="13" Column="1" />
+      <File FileName="Day07/Program.cs" />
+      <File FileName="Day08/Program.cs" />
+      <File FileName="Day08/Person.cs" />
+      <File FileName="Day08/Student.cs" />
+      <File FileName="Day08/StaticClass.cs" />
       <File FileName="Day08/Teacher.cs" Line="13" Column="1" />
     </Files>
     <Pads>
