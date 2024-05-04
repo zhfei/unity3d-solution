@@ -57,9 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Pool/Bullet.cs" />
+    <Compile Include="Assets/Coroutine/HelloCoroutine.cs" />
     <Compile Include="Assets/Pool/SimplePool.cs" />
-    <Compile Include="Assets/Pool/Spawner.cs" />
     <Compile Include="Assets/ObjPool/ObjPool.cs" />
+    <Compile Include="Assets/Pool/Spawner.cs" />
+    <Compile Include="Assets/Coroutine/MyIter.cs" />
+    <Compile Include="Assets/Coroutine/MyIter3.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
