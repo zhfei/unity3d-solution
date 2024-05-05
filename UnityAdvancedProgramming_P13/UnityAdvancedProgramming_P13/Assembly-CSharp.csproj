@@ -60,9 +60,11 @@
     <Compile Include="Assets/Coroutine/HelloCoroutine.cs" />
     <Compile Include="Assets/Pool/SimplePool.cs" />
     <Compile Include="Assets/ObjPool/ObjPool.cs" />
+    <Compile Include="Assets/Coroutine/UnityEventTest.cs" />
     <Compile Include="Assets/Pool/Spawner.cs" />
-    <Compile Include="Assets/Coroutine/MyIter.cs" />
     <Compile Include="Assets/Coroutine/MyIter3.cs" />
+    <Compile Include="Assets/Coroutine/MyIter.cs" />
+    <Compile Include="Assets/Coroutine/TestDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

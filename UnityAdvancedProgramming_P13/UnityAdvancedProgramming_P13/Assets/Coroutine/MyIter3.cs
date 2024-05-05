@@ -56,7 +56,7 @@ public class MyIter3 : MonoBehaviour
             }
             else
             {
-                Debug.Log("MyIter3:" + e.Current);
+                //Debug.Log("MyIter3:" + e.Current);
             }
         }
     }
